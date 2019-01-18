@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/FJust/TBMessage.git", :commit => "4a5140317771123a993d4074f39f5adbbd7daf22" }
+  s.source       = { :git => "https://github.com/FJust/TBMessage.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
