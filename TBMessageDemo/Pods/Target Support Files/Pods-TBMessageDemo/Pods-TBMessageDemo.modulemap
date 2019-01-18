@@ -1,0 +1,6 @@
+module Pods_TBMessageDemo [system] {
+  umbrella header "Pods-TBMessageDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

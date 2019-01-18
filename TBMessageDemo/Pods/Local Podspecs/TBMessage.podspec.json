@@ -1,0 +1,34 @@
+{
+  "name": "TBMessage",
+  "version": "0.0.2",
+  "summary": "TBMessage",
+  "description": "description",
+  "homepage": "https://github.com/FJust/TBMessage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Just": "email@address.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/FJust/TBMessage.git",
+    "tag": "0.0.2"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "dependencies": {
+    "PPTopMostController": [
+
+    ],
+    "HexColors": [
+
+    ]
+  }
+}
