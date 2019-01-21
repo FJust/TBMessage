@@ -1,6 +1,0 @@
-module HexColors [system] {
-  umbrella header "HexColors-umbrella.h"
-
-  export *
-  module * { export * }
-}
