@@ -9,23 +9,24 @@
 /* Begin PBXBuildFile section */
 		08EB956BF459524E122019811B614A66 /* UITabBarController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C754B402FC9856E89B11F992D471CB /* UITabBarController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		094FD60E1D8A44CD927EDA9B5049C23A /* UINavigationController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BD8FAB6D03473E6A49298C2688012B /* UINavigationController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0A0D7D190106C3A032D547E40A3C9AAF /* RMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA9F22728E24DEECE31650AD5C2BAA8 /* RMessageView.xib */; };
 		103BEC752CBFA6D52408E5793BA4CC2E /* Pods-TBMessageDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11F8B8A6CDDA04E18BED4F6BE31B36F6 /* Pods-TBMessageDemo-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		150EFDD63AFEFFA739019A3F8BD9D76D /* TBMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457BF76F62A12D10DCDAA21E68B0403E /* TBMessage-dummy.m */; };
-		19204A9D70B3212979D55DF88B8A6968 /* RMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B3713205D02191D8BCA13D96AD6A2EB /* RMessageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		13D4729F51D3E4393D2F6470236B5952 /* RMessageDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = EDAE6896A9278844D8AEA5BB5B4A8710 /* RMessageDefaultDesign.json */; };
+		150EFDD63AFEFFA739019A3F8BD9D76D /* TBMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC6DB9C2CA59E1645F8BBAB81F909E63 /* TBMessage-dummy.m */; };
+		19204A9D70B3212979D55DF88B8A6968 /* RMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 448AFE36A348FCF5E3B90AD6288C223E /* RMessageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		23438F390C0191F61F63377D0BFCEEA1 /* UIViewController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1650BC0058A434669DF15C6CC92BB /* UIViewController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2A129F28AC4FF3E3686FD2204195B9EF /* Pods-TBMessageDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28CE94A00254918FA1D51FB5A032A331 /* Pods-TBMessageDemo-dummy.m */; };
 		3883AC0E373D0C412352D860789EB13D /* HexColors-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF169D58A28A191670308C677BF3B0E8 /* HexColors-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		411CE46750EF5404832B8FC202A23CAE /* RMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 337F5C08A2A7F01F2D75F3E2EDFE6409 /* RMessageView.m */; };
+		411CE46750EF5404832B8FC202A23CAE /* RMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C20CF7222E090ECA858E1DB133BD65 /* RMessageView.m */; };
 		711C9CC5089893BEF2FA29EFC53CC914 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D53857148D7679C02872495D70D37734 /* HexColors-dummy.m */; };
 		86D2B5B83CDD19270C46746E6BE9755A /* PPTopMostController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5496036BEE5D6D2B6AFD204A9F89523 /* PPTopMostController-dummy.m */; };
 		87AE0EA6C3167A9E552CFDC32279EDB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		89A857288912AF85B2D27A3345FB8F6C /* RMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7864C301B578EAF615D2518AA864076D /* RMessageView.xib */; };
 		8C04A356365FCF9BF6A6DFDCBA1BEEE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		9B035492166AB41EB0E0321E1573E101 /* PPTopMostControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BDF8ED997EEC7292C861B1727295065 /* PPTopMostControllerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A1FA95349569838611683D76E7D9665F /* UINavigationController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FDC92D2745062E6D6512E3CB3DCF3E0 /* UINavigationController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AAB68E02072D39BD68C5C79BA41B9169 /* UIViewController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 915DF722DE36DD1B1280E1E0DE235EE6 /* UIViewController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AF51FC47404E19FC007F0C28401B2160 /* RMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D4436EDA67F5887CF2C50E255EF96C6F /* RMessage.m */; };
-		C36031AE2AFC11E4BBB29EEDFCAEC517 /* RMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E55D993B567D8E4B33EEE4BA1C6F06 /* RMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AF51FC47404E19FC007F0C28401B2160 /* RMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63AD3EB2B0A89D721A700058B575F654 /* RMessage.m */; };
+		C36031AE2AFC11E4BBB29EEDFCAEC517 /* RMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = C15C0CFF6F163424EDFCDD00010E1F97 /* RMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D5D32B85E938AEB2FBCE0D4799CF8E2A /* UITabBarController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810508713DD0D64D381B558422106C50 /* UITabBarController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D6C21455806373CA12F7349D527C6B5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F196E924B5AE044F075AA331FEFD8E72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -82,20 +83,21 @@
 		22B1650BC0058A434669DF15C6CC92BB /* UIViewController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PPTopMostController.m"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.m"; sourceTree = "<group>"; };
 		25ABAFBBC530331A746149C4B314B5DC /* MyLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyLibrary.bundle; path = "TBMessage-MyLibrary.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CE94A00254918FA1D51FB5A032A331 /* Pods-TBMessageDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBMessageDemo-dummy.m"; sourceTree = "<group>"; };
-		2B3713205D02191D8BCA13D96AD6A2EB /* RMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessageView.h; path = Classes/RMessageView.h; sourceTree = "<group>"; };
 		3098A7AD3D6C57A4514C9FD6D3F6778D /* PPTopMostController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTopMostController-prefix.pch"; sourceTree = "<group>"; };
 		30BD8FAB6D03473E6A49298C2688012B /* UINavigationController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PPTopMostController.m"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.m"; sourceTree = "<group>"; };
-		337F5C08A2A7F01F2D75F3E2EDFE6409 /* RMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessageView.m; path = Classes/RMessageView.m; sourceTree = "<group>"; };
 		3895A1C4E36D4001EEDB426FE18FE310 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		3DA9F22728E24DEECE31650AD5C2BAA8 /* RMessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RMessageView.xib; path = Resources/RMessageView.xib; sourceTree = "<group>"; };
 		3E47B638B6757D01A7249C8AAAEA3FA8 /* HexColors.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = HexColors.modulemap; path = ../../Headers/Public/HexColors/HexColors.modulemap; sourceTree = "<group>"; };
-		457BF76F62A12D10DCDAA21E68B0403E /* TBMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBMessage-dummy.m"; sourceTree = "<group>"; };
+		448AFE36A348FCF5E3B90AD6288C223E /* RMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessageView.h; path = Classes/RMessageView.h; sourceTree = "<group>"; };
 		4B659787DBEC1B1B243C0CEAC4556011 /* Pods-TBMessageDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBMessageDemo-frameworks.sh"; sourceTree = "<group>"; };
+		53D3AC3A8078F68A3D1295511C6A7D8B /* TBMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBMessage-prefix.pch"; sourceTree = "<group>"; };
 		5417E4C443D65EFE67F2FB1437D7E231 /* Pods-TBMessageDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TBMessageDemo.modulemap"; sourceTree = "<group>"; };
+		61C20CF7222E090ECA858E1DB133BD65 /* RMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessageView.m; path = Classes/RMessageView.m; sourceTree = "<group>"; };
 		6268F937395F1DB8F58CC4E9B934DA99 /* libPods-TBMessageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TBMessageDemo.a"; path = "libPods-TBMessageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AD3EB2B0A89D721A700058B575F654 /* RMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessage.m; path = Classes/RMessage.m; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6FDC92D2745062E6D6512E3CB3DCF3E0 /* UINavigationController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PPTopMostController.h"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.h"; sourceTree = "<group>"; };
 		74F7D0689A8E86A1B6B301E876244B02 /* Pods-TBMessageDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBMessageDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7864C301B578EAF615D2518AA864076D /* RMessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RMessageView.xib; path = Resources/RMessageView.xib; sourceTree = "<group>"; };
 		7BDF8ED997EEC7292C861B1727295065 /* PPTopMostControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPTopMostControllerProtocol.h; path = "PPTopMostController-Files/PPTopMostControllerProtocol.h"; sourceTree = "<group>"; };
 		810508713DD0D64D381B558422106C50 /* UITabBarController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+PPTopMostController.m"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.m"; sourceTree = "<group>"; };
 		83C754B402FC9856E89B11F992D471CB /* UITabBarController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+PPTopMostController.h"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.h"; sourceTree = "<group>"; };
@@ -105,18 +107,18 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9459C682343078FEEAED82094BEC876F /* HexColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColors.swift; path = Sources/HexColors.swift; sourceTree = "<group>"; };
 		94DA897BB813B03905AC7C6CBC3A137B /* Pods-TBMessageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBMessageDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		95EEC6245FD347FC24922D2EA4849CBA /* TBMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBMessage.xcconfig; sourceTree = "<group>"; };
 		992440118568CE9245DDABFA658147B8 /* Pods-TBMessageDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBMessageDemo-resources.sh"; sourceTree = "<group>"; };
-		A0FF51790A9FFEDEE681139DE4F7A556 /* ResourceBundle-MyLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MyLibrary-Info.plist"; sourceTree = "<group>"; };
-		A30D0797CB90B1A4877877C812DB3072 /* TBMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBMessage-prefix.pch"; sourceTree = "<group>"; };
+		9BB6A1D1FE8F9783D8AAFF5F8D96B1CF /* ResourceBundle-MyLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MyLibrary-Info.plist"; sourceTree = "<group>"; };
 		B2CE3929CCC35B06BE8CB716D87BC83A /* Pods-TBMessageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBMessageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B5496036BEE5D6D2B6AFD204A9F89523 /* PPTopMostController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTopMostController-dummy.m"; sourceTree = "<group>"; };
-		B6E55D993B567D8E4B33EEE4BA1C6F06 /* RMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessage.h; path = Classes/RMessage.h; sourceTree = "<group>"; };
 		BB1B1EEDB62649474C16442136165AD6 /* Pods-TBMessageDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBMessageDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		D4436EDA67F5887CF2C50E255EF96C6F /* RMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessage.m; path = Classes/RMessage.m; sourceTree = "<group>"; };
+		C15C0CFF6F163424EDFCDD00010E1F97 /* RMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessage.h; path = Classes/RMessage.h; sourceTree = "<group>"; };
+		C7F184BB07D05EDD5828BF53F95C25E9 /* TBMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBMessage.xcconfig; sourceTree = "<group>"; };
 		D53857148D7679C02872495D70D37734 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
+		DC6DB9C2CA59E1645F8BBAB81F909E63 /* TBMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBMessage-dummy.m"; sourceTree = "<group>"; };
 		E11232F55BFCEA502B334DEC1011A3F2 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
 		E28C266F66430E4FF505450CB3D3CA8A /* PPTopMostController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTopMostController.xcconfig; sourceTree = "<group>"; };
+		EDAE6896A9278844D8AEA5BB5B4A8710 /* RMessageDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; name = RMessageDefaultDesign.json; path = Resources/Assets/RMessageDefaultDesign.json; sourceTree = "<group>"; };
 		F35B4F3A31F7835A351C77403DBDA2EC /* libTBMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTBMessage.a; path = libTBMessage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF169D58A28A191670308C677BF3B0E8 /* HexColors-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "HexColors-umbrella.h"; path = "../../Headers/Public/HexColors/HexColors-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,9 +184,18 @@
 			children = (
 				A860E33A542F811D69903E6CF040A67E /* HexColors */,
 				2EF457F5C930DB12726A5BB5F901DCB8 /* PPTopMostController */,
-				62E2DD2F5A7FF3A9A586D02702428EF4 /* TBMessage */,
+				AC50ED9B9F315195CB12744DD2604BC7 /* TBMessage */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		1C7F96F0DCC02AE4796D0DE425BCDFA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE6896A9278844D8AEA5BB5B4A8710 /* RMessageDefaultDesign.json */,
+				3DA9F22728E24DEECE31650AD5C2BAA8 /* RMessageView.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		2EF457F5C930DB12726A5BB5F901DCB8 /* PPTopMostController */ = {
@@ -220,14 +231,6 @@
 			path = "Target Support Files/Pods-TBMessageDemo";
 			sourceTree = "<group>";
 		};
-		3B118517DB35E9BE46EC9B0E7641C052 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7864C301B578EAF615D2518AA864076D /* RMessageView.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		55953651FDD36A8AA20990C6926DC9B6 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,20 +240,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PPTopMostController";
-			sourceTree = "<group>";
-		};
-		62E2DD2F5A7FF3A9A586D02702428EF4 /* TBMessage */ = {
-			isa = PBXGroup;
-			children = (
-				B6E55D993B567D8E4B33EEE4BA1C6F06 /* RMessage.h */,
-				D4436EDA67F5887CF2C50E255EF96C6F /* RMessage.m */,
-				2B3713205D02191D8BCA13D96AD6A2EB /* RMessageView.h */,
-				337F5C08A2A7F01F2D75F3E2EDFE6409 /* RMessageView.m */,
-				3B118517DB35E9BE46EC9B0E7641C052 /* Resources */,
-				94E206CB7CF6C859F81AF33FE03FECD3 /* Support Files */,
-			);
-			name = TBMessage;
-			path = TBMessage;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -264,18 +253,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		94E206CB7CF6C859F81AF33FE03FECD3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A0FF51790A9FFEDEE681139DE4F7A556 /* ResourceBundle-MyLibrary-Info.plist */,
-				95EEC6245FD347FC24922D2EA4849CBA /* TBMessage.xcconfig */,
-				457BF76F62A12D10DCDAA21E68B0403E /* TBMessage-dummy.m */,
-				A30D0797CB90B1A4877877C812DB3072 /* TBMessage-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TBMessage";
-			sourceTree = "<group>";
-		};
 		A860E33A542F811D69903E6CF040A67E /* HexColors */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +261,20 @@
 			);
 			name = HexColors;
 			path = HexColors;
+			sourceTree = "<group>";
+		};
+		AC50ED9B9F315195CB12744DD2604BC7 /* TBMessage */ = {
+			isa = PBXGroup;
+			children = (
+				C15C0CFF6F163424EDFCDD00010E1F97 /* RMessage.h */,
+				63AD3EB2B0A89D721A700058B575F654 /* RMessage.m */,
+				448AFE36A348FCF5E3B90AD6288C223E /* RMessageView.h */,
+				61C20CF7222E090ECA858E1DB133BD65 /* RMessageView.m */,
+				1C7F96F0DCC02AE4796D0DE425BCDFA1 /* Resources */,
+				FDE16BA0486025998A20DAC62B753E85 /* Support Files */,
+			);
+			name = TBMessage;
+			path = TBMessage;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -320,6 +311,18 @@
 				31A809F4E663AF2BD7A3BE931B44C634 /* Pods-TBMessageDemo */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FDE16BA0486025998A20DAC62B753E85 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BB6A1D1FE8F9783D8AAFF5F8D96B1CF /* ResourceBundle-MyLibrary-Info.plist */,
+				C7F184BB07D05EDD5828BF53F95C25E9 /* TBMessage.xcconfig */,
+				DC6DB9C2CA59E1645F8BBAB81F909E63 /* TBMessage-dummy.m */,
+				53D3AC3A8078F68A3D1295511C6A7D8B /* TBMessage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TBMessage";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -427,7 +430,7 @@
 			buildPhases = (
 				CD3C5C4CCF09342D08CEC667AB6D3EF6 /* Sources */,
 				F02C3C943EB0389AA3B413A1B89C0749 /* Frameworks */,
-				61F52430F483DC67B82E9FB0635BB79F /* Resources */,
+				1FDEF30D81A265F23F9B5A3187F11C55 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -487,11 +490,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61F52430F483DC67B82E9FB0635BB79F /* Resources */ = {
+		1FDEF30D81A265F23F9B5A3187F11C55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89A857288912AF85B2D27A3345FB8F6C /* RMessageView.xib in Resources */,
+				13D4729F51D3E4393D2F6470236B5952 /* RMessageDefaultDesign.json in Resources */,
+				0A0D7D190106C3A032D547E40A3C9AAF /* RMessageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -694,7 +698,7 @@
 		};
 		77B5187A582F602CC0B328B2082FFF19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EEC6245FD347FC24922D2EA4849CBA /* TBMessage.xcconfig */;
+			baseConfigurationReference = C7F184BB07D05EDD5828BF53F95C25E9 /* TBMessage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -804,7 +808,7 @@
 		};
 		89445F68F50DC86293CD87D8D1B857F6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EEC6245FD347FC24922D2EA4849CBA /* TBMessage.xcconfig */;
+			baseConfigurationReference = C7F184BB07D05EDD5828BF53F95C25E9 /* TBMessage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TBMessage";
@@ -871,7 +875,7 @@
 		};
 		D2577613BA491939D1F064DD1EA289E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EEC6245FD347FC24922D2EA4849CBA /* TBMessage.xcconfig */;
+			baseConfigurationReference = C7F184BB07D05EDD5828BF53F95C25E9 /* TBMessage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TBMessage";
@@ -936,7 +940,7 @@
 		};
 		E08B7B270E79318966301E936626D30F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95EEC6245FD347FC24922D2EA4849CBA /* TBMessage.xcconfig */;
+			baseConfigurationReference = C7F184BB07D05EDD5828BF53F95C25E9 /* TBMessage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
