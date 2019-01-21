@@ -1,6 +1,6 @@
 {
   "name": "TBMessage",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "summary": "TBMessage",
   "description": "description",
   "homepage": "https://github.com/FJust/TBMessage",
@@ -16,13 +16,17 @@
   },
   "source": {
     "git": "https://github.com/FJust/TBMessage.git",
-    "tag": "0.0.2"
+    "tag": "0.0.4"
   },
   "source_files": [
     "Classes",
     "Classes/**/*.{h,m}"
   ],
   "exclude_files": "Classes/Exclude",
+  "preserve_paths": [
+    "Assets",
+    "Resources"
+  ],
   "dependencies": {
     "PPTopMostController": [
 

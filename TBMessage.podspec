@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TBMessage"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "TBMessage"
 
   # This description is used to generate tags and improve search results.
@@ -107,8 +107,10 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "Assets", "Resources"
+  # s.preserve_paths = "Assets", "Resources"
 
+  spec.resource_bundles = {
+    'MyLibrary' => ['Resources/*.{png,xib}', 'Assets'] }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
