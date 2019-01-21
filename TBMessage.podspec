@@ -110,7 +110,7 @@ Pod::Spec.new do |s|
   # s.preserve_paths = "Assets", "Resources"
 
   s.resource_bundles = {
-    'MyLibrary' => ['Resources/*.{png,xib,json}'] }
+    'MyLibrary' => ['Resources/**/*.{png,xib,json}'] }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

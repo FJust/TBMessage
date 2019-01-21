@@ -106,6 +106,7 @@
 				F3D3418A21F1C56700AB7B67 /* Sources */,
 				F3D3418B21F1C56700AB7B67 /* Frameworks */,
 				F3D3418C21F1C56700AB7B67 /* Resources */,
+				40E5469B6167B52142825ECC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +163,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		40E5469B6167B52142825ECC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TBMessageDemo/Pods-TBMessageDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TBMessage/MyLibrary.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MyLibrary.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TBMessageDemo/Pods-TBMessageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		57105EAF29ECE71A5DFC6AAD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
