@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   RMessage:
-    :commit: ed92956a7dff6b3e9f9c39327d99dc5d693ec793
+    :commit: 34642cffb76cded4a164982a8fa98bb9b8b69948
     :git: https://github.com/FJust/TBMessage.git
 
 SPEC CHECKSUMS:
