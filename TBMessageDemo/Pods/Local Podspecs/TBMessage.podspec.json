@@ -1,6 +1,6 @@
 {
   "name": "TBMessage",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "summary": "TBMessage",
   "description": "description",
   "homepage": "https://github.com/FJust/TBMessage",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/FJust/TBMessage.git",
-    "tag": "0.0.7"
+    "tag": "0.0.8"
   },
   "source_files": [
     "Classes",
@@ -24,7 +24,7 @@
   ],
   "exclude_files": "Classes/Exclude",
   "resource_bundles": {
-    "RMessage": [
+    "RMessageView": [
       "Resources/**/*.{png,xib,json}"
     ]
   },
