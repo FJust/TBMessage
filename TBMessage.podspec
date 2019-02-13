@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RMessage"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "RMessage"
 
   # This description is used to generate tags and improve search results.
@@ -105,12 +105,12 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+  s.resources = "Resources/**/*.{png,json,xib}"
 
   # s.preserve_paths = "Assets", "Resources"
 
-  s.resource_bundles = {
-    'RMessageView' => ['Resources/**/*.{png,json,xib}'] }
+  # s.resource_bundles = {
+    # 'RMessageView' => ['Resources/**/*.{png,json,xib}'] }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #

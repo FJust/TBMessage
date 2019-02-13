@@ -1,0 +1,39 @@
+{
+  "name": "RMessage",
+  "version": "0.1.2",
+  "summary": "RMessage",
+  "description": "description",
+  "homepage": "https://github.com/FJust/TBMessage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Just": "email@address.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/FJust/TBMessage.git",
+    "tag": "0.1.2"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resource_bundles": {
+    "RMessageView": [
+      "Resources/**/*.{png,json,xib}"
+    ]
+  },
+  "dependencies": {
+    "PPTopMostController": [
+      "~> 0.0.1"
+    ],
+    "HexColors": [
+      "~> 4.0.0"
+    ]
+  }
+}
