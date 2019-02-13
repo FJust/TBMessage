@@ -7,119 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		129FFCFEE5907325016AF2CAEF0AE0B1 /* TBMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE754B03A99641C7D1B1D2EE67E686D /* TBMessage-dummy.m */; };
-		14DD78062E33839871A3CFA30EAEF0F8 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF72FB6190EAC0710BE7A310477A7F42 /* HexColors-dummy.m */; };
-		20F7369400CD4ED822D5A9ACF60953AA /* RMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00162DA63FA270B9C6AAB7A5C1C8F1F4 /* RMessageView.m */; };
-		290A28D5CC5AF8985EF6E8A667E7AAB8 /* PPTopMostController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A33AE943FD731323E9D8DD446BF632F /* PPTopMostController-dummy.m */; };
-		36600725474DBFC483AEC4D6B5DAB8A1 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = 065AAAB40B1B219898E966750CFE74DC /* HexColors.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		36FF34967F6BA89F7B762310DE0B5EF5 /* UINavigationController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = C565007C870D4B2E4AF91B0F9A84FB24 /* UINavigationController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		3B786FC62EB3C2D3CF72224DC609C6EC /* RMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4486657811142829253F32FD35E2AA20 /* RMessageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4A6964B5ADAEE83AB94AC7A7BC4CD240 /* PPTopMostControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CC6F28B1624A0CA192DC5A5ED9C233A /* PPTopMostControllerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4B85AD06817BF4C6C68B114C3A1B9696 /* RMessageDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = D05AD4CD5FF5F65A07C3F01748D9A6DA /* RMessageDefaultDesign.json */; };
-		589BAB0595AFEB64F503C8B03E06FF3E /* RMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C11533F9F3D0212D483C88DE906EF797 /* RMessageView.xib */; };
+		14DD78062E33839871A3CFA30EAEF0F8 /* HexColors-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD79B2F1216DD574236C4C95E3FC13 /* HexColors-dummy.m */; };
+		25188206D8E7D835BB421914F9C7B781 /* UIViewController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 592D2C3150B5190FD4C8DD9E4FCAE61F /* UIViewController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		258F0127FBF436E6C8691843B1375045 /* UITabBarController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7247A5C98E2C05C708F3F0620B276A32 /* UITabBarController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		25BF167A66BC7740AF8665FA3553DFA2 /* UINavigationController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD246E65513C019B50BEB7C43B1D2120 /* UINavigationController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		36600725474DBFC483AEC4D6B5DAB8A1 /* HexColors.h in Headers */ = {isa = PBXBuildFile; fileRef = F79FFBC9E644CB04ACACEF59F67712FB /* HexColors.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D3C456A384A30EC1D756773093CC424 /* UITabBarController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66B5FFB839CF622C0431690B79BE25BF /* UITabBarController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3F3D86CD490317FE2A80071833630FA0 /* RMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C42909BB722E7DF59A50E4AB4C93AAD2 /* RMessageView.xib */; };
+		4B7097B33C24DE329B42441414C85023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4DC76F17B0CBA6D901499DD7ABB2A3CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5DFD5C5AAD345BB285A29839B894A383 /* RMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C48AB7964749C310DEA53380D7695E /* RMessage-dummy.m */; };
 		684887DE0B0891FB0EA0B6F6B53622B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6AA121F97E9D6B4C5BD706BD099B0907 /* RMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF05EBC7A2B7E95A03A35D51E3EC840 /* RMessage.m */; };
-		76748479BB427E89A8E09CDF83B1DB02 /* UITabBarController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA98711C6F669BC3C915AFA0796785 /* UITabBarController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		815878C15280A7A42CF2E7FA65FF8AD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		8D4D4A272059E28FC4BEC5EE0A1157CE /* Pods-TBMessageDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52118FF8A2C092C8D403002B034D8C27 /* Pods-TBMessageDemo-dummy.m */; };
-		A4950E142AD29C6F3F5E021256208496 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = E79461520B1D90F8ED708FB89D5C340B /* HexColors.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		A581B35E7F11BB4C5CFE1828A5231F15 /* RMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC3F9A210B770E7578387B828320D8F /* RMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A942CDFDFAD3EBA29B54A541B3F6362A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		AA75D0E6A196C240109B662015841EC9 /* UITabBarController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 025A8A1F5C0CCB554D71053059F02C43 /* UITabBarController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AE5AF596E953E40D6ECE05B84CF57DF9 /* UIViewController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5E5F511271DD46683E55CA68339DE0 /* UIViewController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C7E0655E5B9BF81939924A96AEA5E622 /* UINavigationController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0037A928A45475AF9AC4FC40BD200437 /* UINavigationController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FCFF299DED0614FDA2B6D1917280D711 /* UIViewController+PPTopMostController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1FBFF35466E95AAB62DF3215D342F2 /* UIViewController+PPTopMostController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		FF0AB77923C9438FD826DCE30F116011 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6D34201487ADFD1A5C6264B9A765B6BC /* RMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D813B0234B2A50FC3A067F3227024EB /* RMessage.m */; };
+		77BCD5B23168DD7CFFCF2567E2F37B7C /* UINavigationController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = DF902D231BE8C4C3E40237A5C42DD67F /* UINavigationController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DDE215D017C1736F1E2810997B427F2 /* RMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 53AAFB4C795162FB0ACEE6DF11EFCBE4 /* RMessageView.m */; };
+		8A4904F8C1D5030852EC2C257886717A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9CE3A650FDBD9CEF700412A159B8A501 /* UIViewController+PPTopMostController.h in Headers */ = {isa = PBXBuildFile; fileRef = 45A18257BC3BC30621414DB48B7E7B83 /* UIViewController+PPTopMostController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A3CFA4061AD0B5467BCCB668D24437D3 /* RMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A25C20E09157E67BFA9717701B8CD75 /* RMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A4950E142AD29C6F3F5E021256208496 /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 60D7DCAE9D73477DEDFC6E4FFEA30750 /* HexColors.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AA0CC77CD1354AA0268C556AFCE8675D /* PPTopMostController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C511F54C65E28B6F196A6267E9C324 /* PPTopMostController-dummy.m */; };
+		AA1D211F4BCF1FDF51F02AE87843C43E /* Pods-TBMessageDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52118FF8A2C092C8D403002B034D8C27 /* Pods-TBMessageDemo-dummy.m */; };
+		BC83021327EA39B983A50E7FFAB12E06 /* RMessageDefaultDesign.json in Resources */ = {isa = PBXBuildFile; fileRef = 19BF920E6B928129293FB36F19E13CC7 /* RMessageDefaultDesign.json */; };
+		C1C669B056E056C8D9CC3D5DA7B87C66 /* PPTopMostControllerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C09FD631147B5FEAAB84BFEC1F659B00 /* PPTopMostControllerProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E675B650E7EBDC91EB1B167E133DF855 /* RMessageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6509B412106331B2B40CC013D99B1113 /* RMessageView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		185B3B48D9D3D05B90BE4826B233FB62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 36021131D35E668D85E02951FFFBE10C;
-			remoteInfo = PPTopMostController;
-		};
-		47CB6D9BDC1A79A518DC04AA44E103FA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BE7E0E8E6032BBC6763244FC506BA979;
-			remoteInfo = "TBMessage-MyLibrary";
-		};
-		82CA7E025DBDF2AF114D8075826C3435 /* PBXContainerItemProxy */ = {
+		024C7717EE2B63F49B629541BC86698A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC7BAA2B0109B633CE06A36E872A9505;
 			remoteInfo = HexColors;
 		};
-		CAEAF98AD967019ABDD2FA9E9423AD42 /* PBXContainerItemProxy */ = {
+		5D8E16598D565A22E0CAD8FB2C5FC9B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36021131D35E668D85E02951FFFBE10C;
+			remoteGlobalIDString = DCEFC80D84D1C5888EC4DE3E3FEED4F8;
 			remoteInfo = PPTopMostController;
 		};
-		D81CBD62EA6BFAA74E5319F44618CB3C /* PBXContainerItemProxy */ = {
+		9531A0E3F62778A214C66F79F1924BCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEFC80D84D1C5888EC4DE3E3FEED4F8;
+			remoteInfo = PPTopMostController;
+		};
+		A29CE1DAA4F97EA7E95ADEBEFF267D9A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EC7BAA2B0109B633CE06A36E872A9505;
 			remoteInfo = HexColors;
 		};
-		F2F98A6DCD6975A332C4157B0B701D66 /* PBXContainerItemProxy */ = {
+		E36261063AF18ECF9B75529EE1C1D208 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F5DDAD85DE706978BC3BD1BF4A845476;
-			remoteInfo = TBMessage;
+			remoteGlobalIDString = C3AB34FF7C0D613FDD8BBA538057A42F;
+			remoteInfo = "RMessage-MyLibrary";
+		};
+		FAD0E19C339043622A6E65E3EAE677EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7037B781D92E5ADEF424C2A1C1655402;
+			remoteInfo = RMessage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00162DA63FA270B9C6AAB7A5C1C8F1F4 /* RMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessageView.m; path = Classes/RMessageView.m; sourceTree = "<group>"; };
-		0037A928A45475AF9AC4FC40BD200437 /* UINavigationController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PPTopMostController.h"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.h"; sourceTree = "<group>"; };
-		025A8A1F5C0CCB554D71053059F02C43 /* UITabBarController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+PPTopMostController.h"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.h"; sourceTree = "<group>"; };
-		065AAAB40B1B219898E966750CFE74DC /* HexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColors.h; path = Classes/HexColors.h; sourceTree = "<group>"; };
-		0CC6F28B1624A0CA192DC5A5ED9C233A /* PPTopMostControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPTopMostControllerProtocol.h; path = "PPTopMostController-Files/PPTopMostControllerProtocol.h"; sourceTree = "<group>"; };
-		20C83D8D0C71141172A293C273DFEBF7 /* TBMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TBMessage.xcconfig; sourceTree = "<group>"; };
-		25ABAFBBC530331A746149C4B314B5DC /* MyLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyLibrary.bundle; path = "TBMessage-MyLibrary.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A33AE943FD731323E9D8DD446BF632F /* PPTopMostController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTopMostController-dummy.m"; sourceTree = "<group>"; };
-		2DBA98711C6F669BC3C915AFA0796785 /* UITabBarController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+PPTopMostController.m"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.m"; sourceTree = "<group>"; };
-		34AE2AC62E44A1D320AF23FC08FDC53C /* ResourceBundle-MyLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MyLibrary-Info.plist"; sourceTree = "<group>"; };
-		3D5E5F511271DD46683E55CA68339DE0 /* UIViewController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PPTopMostController.h"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.h"; sourceTree = "<group>"; };
-		4486657811142829253F32FD35E2AA20 /* RMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessageView.h; path = Classes/RMessageView.h; sourceTree = "<group>"; };
-		4FE754B03A99641C7D1B1D2EE67E686D /* TBMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TBMessage-dummy.m"; sourceTree = "<group>"; };
-		502E9A65428451C9FF23FC5AAEE89F98 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		0504BDA190AD8CA00CACE4CBDBD37671 /* libHexColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHexColors.a; path = libHexColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C511F54C65E28B6F196A6267E9C324 /* PPTopMostController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PPTopMostController-dummy.m"; sourceTree = "<group>"; };
+		0D813B0234B2A50FC3A067F3227024EB /* RMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessage.m; path = Classes/RMessage.m; sourceTree = "<group>"; };
+		15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HexColors.xcconfig; sourceTree = "<group>"; };
+		17A173432E44F9FCD8E7F54A0A6824A1 /* MyLibrary.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyLibrary.bundle; path = "RMessage-MyLibrary.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19BF920E6B928129293FB36F19E13CC7 /* RMessageDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; name = RMessageDefaultDesign.json; path = Resources/Assets/RMessageDefaultDesign.json; sourceTree = "<group>"; };
+		1BD4DBF2420D42C0E47D1BB776D36A67 /* PPTopMostController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTopMostController-prefix.pch"; sourceTree = "<group>"; };
+		25C6593C3EA024CD6223F92EAA23527E /* ResourceBundle-MyLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MyLibrary-Info.plist"; sourceTree = "<group>"; };
+		304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTopMostController.xcconfig; sourceTree = "<group>"; };
+		33085851D0DE4D329F720FFA1D45EF31 /* libPPTopMostController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPPTopMostController.a; path = libPPTopMostController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A18257BC3BC30621414DB48B7E7B83 /* UIViewController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PPTopMostController.h"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.h"; sourceTree = "<group>"; };
+		4ACD79B2F1216DD574236C4C95E3FC13 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
 		52118FF8A2C092C8D403002B034D8C27 /* Pods-TBMessageDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TBMessageDemo-dummy.m"; sourceTree = "<group>"; };
-		6268F937395F1DB8F58CC4E9B934DA99 /* libPods-TBMessageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TBMessageDemo.a"; path = "libPods-TBMessageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AAFB4C795162FB0ACEE6DF11EFCBE4 /* RMessageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessageView.m; path = Classes/RMessageView.m; sourceTree = "<group>"; };
+		592D2C3150B5190FD4C8DD9E4FCAE61F /* UIViewController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PPTopMostController.m"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.m"; sourceTree = "<group>"; };
+		60D7DCAE9D73477DEDFC6E4FFEA30750 /* HexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColors.m; path = Classes/HexColors.m; sourceTree = "<group>"; };
+		6509B412106331B2B40CC013D99B1113 /* RMessageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessageView.h; path = Classes/RMessageView.h; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66B5FFB839CF622C0431690B79BE25BF /* UITabBarController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarController+PPTopMostController.m"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.m"; sourceTree = "<group>"; };
+		6F4EDF3F028DB0A7C9D531EB0BE8D3C1 /* RMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RMessage-prefix.pch"; sourceTree = "<group>"; };
+		7247A5C98E2C05C708F3F0620B276A32 /* UITabBarController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarController+PPTopMostController.h"; path = "PPTopMostController-Files/UITabBarController+PPTopMostController.h"; sourceTree = "<group>"; };
+		7A25C20E09157E67BFA9717701B8CD75 /* RMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessage.h; path = Classes/RMessage.h; sourceTree = "<group>"; };
 		7CB21BE5A6157533826CBC7A95CB0348 /* Pods-TBMessageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBMessageDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		887BADBD4ED83FAF59F8ECCB5DE80726 /* libHexColors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHexColors.a; path = libHexColors.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CC3F9A210B770E7578387B828320D8F /* RMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RMessage.h; path = Classes/RMessage.h; sourceTree = "<group>"; };
+		80C48AB7964749C310DEA53380D7695E /* RMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RMessage-dummy.m"; sourceTree = "<group>"; };
 		8D7D67EDD7115C38E4CABF37A74566C8 /* Pods-TBMessageDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBMessageDemo-resources.sh"; sourceTree = "<group>"; };
-		8EDFF66908DE4E61718C2AC18F46BB82 /* libPPTopMostController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPPTopMostController.a; path = libPPTopMostController.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		91146E835CDA2073B114F93B891DB2E4 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1B35CF98400473649ED68DA7EA8D247 /* Pods-TBMessageDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TBMessageDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		AA8623C20323B74293A8124AEC3FEEE6 /* TBMessage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TBMessage-prefix.pch"; sourceTree = "<group>"; };
-		ADF05EBC7A2B7E95A03A35D51E3EC840 /* RMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RMessage.m; path = Classes/RMessage.m; sourceTree = "<group>"; };
-		B159906A88C6E72F153F2F993FD86E61 /* PPTopMostController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PPTopMostController.xcconfig; sourceTree = "<group>"; };
+		AD246E65513C019B50BEB7C43B1D2120 /* UINavigationController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PPTopMostController.m"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.m"; sourceTree = "<group>"; };
+		AE4245B938C948957E46B86685ECA833 /* RMessage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RMessage.xcconfig; sourceTree = "<group>"; };
+		B210671FD3C59334D7A26EA0D1BA91A6 /* HexColors-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HexColors-prefix.pch"; sourceTree = "<group>"; };
+		B879E67D5A30524CFE0A975E7E7A8E32 /* libPods-TBMessageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TBMessageDemo.a"; path = "libPods-TBMessageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC8A18EB0D327FA9D82A4CA8FF04C7C9 /* libRMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libRMessage.a; path = libRMessage.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD41B182FE5ADB8F1DE7A8184F270558 /* Pods-TBMessageDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TBMessageDemo-frameworks.sh"; sourceTree = "<group>"; };
-		BF72FB6190EAC0710BE7A310477A7F42 /* HexColors-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HexColors-dummy.m"; sourceTree = "<group>"; };
-		C11533F9F3D0212D483C88DE906EF797 /* RMessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RMessageView.xib; path = Resources/RMessageView.xib; sourceTree = "<group>"; };
-		C565007C870D4B2E4AF91B0F9A84FB24 /* UINavigationController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+PPTopMostController.m"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.m"; sourceTree = "<group>"; };
+		C09FD631147B5FEAAB84BFEC1F659B00 /* PPTopMostControllerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PPTopMostControllerProtocol.h; path = "PPTopMostController-Files/PPTopMostControllerProtocol.h"; sourceTree = "<group>"; };
+		C42909BB722E7DF59A50E4AB4C93AAD2 /* RMessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = RMessageView.xib; path = Resources/RMessageView.xib; sourceTree = "<group>"; };
 		C573F3236CCEF67BB35ECB89A7E5F76F /* Pods-TBMessageDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TBMessageDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D05AD4CD5FF5F65A07C3F01748D9A6DA /* RMessageDefaultDesign.json */ = {isa = PBXFileReference; includeInIndex = 1; name = RMessageDefaultDesign.json; path = Resources/Assets/RMessageDefaultDesign.json; sourceTree = "<group>"; };
+		DF902D231BE8C4C3E40237A5C42DD67F /* UINavigationController+PPTopMostController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+PPTopMostController.h"; path = "PPTopMostController-Files/UINavigationController+PPTopMostController.h"; sourceTree = "<group>"; };
 		E03521C832936F185799B6DC1064F9A4 /* Pods-TBMessageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TBMessageDemo.release.xcconfig"; sourceTree = "<group>"; };
-		E79461520B1D90F8ED708FB89D5C340B /* HexColors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HexColors.m; path = Classes/HexColors.m; sourceTree = "<group>"; };
-		EC1FBFF35466E95AAB62DF3215D342F2 /* UIViewController+PPTopMostController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PPTopMostController.m"; path = "PPTopMostController-Files/UIViewController+PPTopMostController.m"; sourceTree = "<group>"; };
-		F35B4F3A31F7835A351C77403DBDA2EC /* libTBMessage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTBMessage.a; path = libTBMessage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC31B99240A047492D3D933949B0D211 /* PPTopMostController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PPTopMostController-prefix.pch"; sourceTree = "<group>"; };
+		F79FFBC9E644CB04ACACEF59F67712FB /* HexColors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HexColors.h; path = Classes/HexColors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0E0838681169E68E2FAABD857CE083A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC76F17B0CBA6D901499DD7ABB2A3CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2F45FD804D336CC90E6F5B7EB2369D0E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,100 +136,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		67A19E8668DE44742791A4603EAE6C75 /* Frameworks */ = {
+		B1573321C094A50FD2E18D58E2FB0EE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B7097B33C24DE329B42441414C85023 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA96E364D86BCE951DE4F341813B3984 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D61F49A983273905EE6D58F470267EA5 /* Frameworks */ = {
+		E24E3C34C6C0905CDEA6F9106303DA9A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A942CDFDFAD3EBA29B54A541B3F6362A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F381FAC835953DCDF5DA84BC8648C012 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FF0AB77923C9438FD826DCE30F116011 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7BC45E6EB862D48D36B135C194DFCBA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				815878C15280A7A42CF2E7FA65FF8AD0 /* Foundation.framework in Frameworks */,
+				8A4904F8C1D5030852EC2C257886717A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		328FE473D3A21758F6E18FA007F83290 /* HexColors */ = {
+		1429EC88131F639F8430E7A33CF15C7D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				065AAAB40B1B219898E966750CFE74DC /* HexColors.h */,
-				E79461520B1D90F8ED708FB89D5C340B /* HexColors.m */,
-				67EDFDDBDD46E19D1934FD3B3831CD23 /* Support Files */,
-			);
-			name = HexColors;
-			path = HexColors;
-			sourceTree = "<group>";
-		};
-		42EF936BF87389A914CE60304C017203 /* PPTopMostController */ = {
-			isa = PBXGroup;
-			children = (
-				0CC6F28B1624A0CA192DC5A5ED9C233A /* PPTopMostControllerProtocol.h */,
-				0037A928A45475AF9AC4FC40BD200437 /* UINavigationController+PPTopMostController.h */,
-				C565007C870D4B2E4AF91B0F9A84FB24 /* UINavigationController+PPTopMostController.m */,
-				025A8A1F5C0CCB554D71053059F02C43 /* UITabBarController+PPTopMostController.h */,
-				2DBA98711C6F669BC3C915AFA0796785 /* UITabBarController+PPTopMostController.m */,
-				3D5E5F511271DD46683E55CA68339DE0 /* UIViewController+PPTopMostController.h */,
-				EC1FBFF35466E95AAB62DF3215D342F2 /* UIViewController+PPTopMostController.m */,
-				BAB65B12CDC1F1D11FC018CAA003BB16 /* Support Files */,
-			);
-			name = PPTopMostController;
-			path = PPTopMostController;
-			sourceTree = "<group>";
-		};
-		4471E5345685B8B59459ED718A28F46A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				328FE473D3A21758F6E18FA007F83290 /* HexColors */,
-				42EF936BF87389A914CE60304C017203 /* PPTopMostController */,
-				729C24D0BBB7BCC44C3219952BDE0BF4 /* TBMessage */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		67EDFDDBDD46E19D1934FD3B3831CD23 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				502E9A65428451C9FF23FC5AAEE89F98 /* HexColors.xcconfig */,
-				BF72FB6190EAC0710BE7A310477A7F42 /* HexColors-dummy.m */,
-				91146E835CDA2073B114F93B891DB2E4 /* HexColors-prefix.pch */,
+				15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */,
+				4ACD79B2F1216DD574236C4C95E3FC13 /* HexColors-dummy.m */,
+				B210671FD3C59334D7A26EA0D1BA91A6 /* HexColors-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/HexColors";
 			sourceTree = "<group>";
 		};
-		729C24D0BBB7BCC44C3219952BDE0BF4 /* TBMessage */ = {
+		567E8A77B4F2ED56FD68869EBF416ABD /* RMessage */ = {
 			isa = PBXGroup;
 			children = (
-				8CC3F9A210B770E7578387B828320D8F /* RMessage.h */,
-				ADF05EBC7A2B7E95A03A35D51E3EC840 /* RMessage.m */,
-				4486657811142829253F32FD35E2AA20 /* RMessageView.h */,
-				00162DA63FA270B9C6AAB7A5C1C8F1F4 /* RMessageView.m */,
-				D307A9BADF6DD1E51E2ACF7AC56DF904 /* Resources */,
-				C05AE24BA10BF1B20D9AE133ED0620A8 /* Support Files */,
+				7A25C20E09157E67BFA9717701B8CD75 /* RMessage.h */,
+				0D813B0234B2A50FC3A067F3227024EB /* RMessage.m */,
+				6509B412106331B2B40CC013D99B1113 /* RMessageView.h */,
+				53AAFB4C795162FB0ACEE6DF11EFCBE4 /* RMessageView.m */,
+				72968B4A8F899DAC880DE000B6C49BCD /* Resources */,
+				F89814C028015BABFB6118327DD6BECE /* Support Files */,
 			);
-			name = TBMessage;
-			path = TBMessage;
+			name = RMessage;
+			path = RMessage;
+			sourceTree = "<group>";
+		};
+		67D15644260BF328727C57BAA2511F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0504BDA190AD8CA00CACE4CBDBD37671 /* libHexColors.a */,
+				B879E67D5A30524CFE0A975E7E7A8E32 /* libPods-TBMessageDemo.a */,
+				33085851D0DE4D329F720FFA1D45EF31 /* libPPTopMostController.a */,
+				BC8A18EB0D327FA9D82A4CA8FF04C7C9 /* libRMessage.a */,
+				17A173432E44F9FCD8E7F54A0A6824A1 /* MyLibrary.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72968B4A8F899DAC880DE000B6C49BCD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				19BF920E6B928129293FB36F19E13CC7 /* RMessageDefaultDesign.json */,
+				C42909BB722E7DF59A50E4AB4C93AAD2 /* RMessageView.xib */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -229,10 +213,31 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				4471E5345685B8B59459ED718A28F46A /* Pods */,
-				CA384355B777C808E85EC3A703CC1BE1 /* Products */,
+				91AA88AAD5715ADA563E3523FC138B03 /* Pods */,
+				67D15644260BF328727C57BAA2511F13 /* Products */,
 				B0986E9F63336D2933A7913FCBAD4DF5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		91AA88AAD5715ADA563E3523FC138B03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF74ADFC16279F319ED1F087E280DFF5 /* HexColors */,
+				D020DC18D601A7E17D7575EFA351CD8F /* PPTopMostController */,
+				567E8A77B4F2ED56FD68869EBF416ABD /* RMessage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9564E13454CF9BC5DB5313204C0DA75C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */,
+				08C511F54C65E28B6F196A6267E9C324 /* PPTopMostController-dummy.m */,
+				1BD4DBF2420D42C0E47D1BB776D36A67 /* PPTopMostController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PPTopMostController";
 			sourceTree = "<group>";
 		};
 		B0986E9F63336D2933A7913FCBAD4DF5 /* Targets Support Files */ = {
@@ -243,17 +248,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BAB65B12CDC1F1D11FC018CAA003BB16 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B159906A88C6E72F153F2F993FD86E61 /* PPTopMostController.xcconfig */,
-				2A33AE943FD731323E9D8DD446BF632F /* PPTopMostController-dummy.m */,
-				FC31B99240A047492D3D933949B0D211 /* PPTopMostController-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PPTopMostController";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,16 +256,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C05AE24BA10BF1B20D9AE133ED0620A8 /* Support Files */ = {
+		BF74ADFC16279F319ED1F087E280DFF5 /* HexColors */ = {
 			isa = PBXGroup;
 			children = (
-				34AE2AC62E44A1D320AF23FC08FDC53C /* ResourceBundle-MyLibrary-Info.plist */,
-				20C83D8D0C71141172A293C273DFEBF7 /* TBMessage.xcconfig */,
-				4FE754B03A99641C7D1B1D2EE67E686D /* TBMessage-dummy.m */,
-				AA8623C20323B74293A8124AEC3FEEE6 /* TBMessage-prefix.pch */,
+				F79FFBC9E644CB04ACACEF59F67712FB /* HexColors.h */,
+				60D7DCAE9D73477DEDFC6E4FFEA30750 /* HexColors.m */,
+				1429EC88131F639F8430E7A33CF15C7D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/TBMessage";
+			name = HexColors;
+			path = HexColors;
 			sourceTree = "<group>";
 		};
 		C29DED216468C6ABF107CA0A115D8B55 /* Pods-TBMessageDemo */ = {
@@ -289,25 +282,20 @@
 			path = "Target Support Files/Pods-TBMessageDemo";
 			sourceTree = "<group>";
 		};
-		CA384355B777C808E85EC3A703CC1BE1 /* Products */ = {
+		D020DC18D601A7E17D7575EFA351CD8F /* PPTopMostController */ = {
 			isa = PBXGroup;
 			children = (
-				887BADBD4ED83FAF59F8ECCB5DE80726 /* libHexColors.a */,
-				6268F937395F1DB8F58CC4E9B934DA99 /* libPods-TBMessageDemo.a */,
-				8EDFF66908DE4E61718C2AC18F46BB82 /* libPPTopMostController.a */,
-				F35B4F3A31F7835A351C77403DBDA2EC /* libTBMessage.a */,
-				25ABAFBBC530331A746149C4B314B5DC /* MyLibrary.bundle */,
+				C09FD631147B5FEAAB84BFEC1F659B00 /* PPTopMostControllerProtocol.h */,
+				DF902D231BE8C4C3E40237A5C42DD67F /* UINavigationController+PPTopMostController.h */,
+				AD246E65513C019B50BEB7C43B1D2120 /* UINavigationController+PPTopMostController.m */,
+				7247A5C98E2C05C708F3F0620B276A32 /* UITabBarController+PPTopMostController.h */,
+				66B5FFB839CF622C0431690B79BE25BF /* UITabBarController+PPTopMostController.m */,
+				45A18257BC3BC30621414DB48B7E7B83 /* UIViewController+PPTopMostController.h */,
+				592D2C3150B5190FD4C8DD9E4FCAE61F /* UIViewController+PPTopMostController.m */,
+				9564E13454CF9BC5DB5313204C0DA75C /* Support Files */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D307A9BADF6DD1E51E2ACF7AC56DF904 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D05AD4CD5FF5F65A07C3F01748D9A6DA /* RMessageDefaultDesign.json */,
-				C11533F9F3D0212D483C88DE906EF797 /* RMessageView.xib */,
-			);
-			name = Resources;
+			name = PPTopMostController;
+			path = PPTopMostController;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -318,26 +306,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		F89814C028015BABFB6118327DD6BECE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C6593C3EA024CD6223F92EAA23527E /* ResourceBundle-MyLibrary-Info.plist */,
+				AE4245B938C948957E46B86685ECA833 /* RMessage.xcconfig */,
+				80C48AB7964749C310DEA53380D7695E /* RMessage-dummy.m */,
+				6F4EDF3F028DB0A7C9D531EB0BE8D3C1 /* RMessage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RMessage";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E1B897FAFE26301BEA4B65B938A28AF /* Headers */ = {
+		A6ECCE95C326F6E379682F0FD61E5E38 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A6964B5ADAEE83AB94AC7A7BC4CD240 /* PPTopMostControllerProtocol.h in Headers */,
-				C7E0655E5B9BF81939924A96AEA5E622 /* UINavigationController+PPTopMostController.h in Headers */,
-				AA75D0E6A196C240109B662015841EC9 /* UITabBarController+PPTopMostController.h in Headers */,
-				AE5AF596E953E40D6ECE05B84CF57DF9 /* UIViewController+PPTopMostController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5AAEE561E98327DB3FA892884423F1AD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A581B35E7F11BB4C5CFE1828A5231F15 /* RMessage.h in Headers */,
-				3B786FC62EB3C2D3CF72224DC609C6EC /* RMessageView.h in Headers */,
+				C1C669B056E056C8D9CC3D5DA7B87C66 /* PPTopMostControllerProtocol.h in Headers */,
+				77BCD5B23168DD7CFFCF2567E2F37B7C /* UINavigationController+PPTopMostController.h in Headers */,
+				258F0127FBF436E6C8691843B1375045 /* UITabBarController+PPTopMostController.h in Headers */,
+				9CE3A650FDBD9CEF700412A159B8A501 /* UIViewController+PPTopMostController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,16 +340,81 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EEA60FB88C4BA69A9ED31A19E9FA4F5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3CFA4061AD0B5467BCCB668D24437D3 /* RMessage.h in Headers */,
+				E675B650E7EBDC91EB1B167E133DF855 /* RMessageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		36021131D35E668D85E02951FFFBE10C /* PPTopMostController */ = {
+		0849CF8F4EB90626746807CBF5F0F187 /* Pods-TBMessageDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 609F3D6F7D8A5E40155A9A5426CE95F2 /* Build configuration list for PBXNativeTarget "PPTopMostController" */;
+			buildConfigurationList = 789B69639D06619197F1FD98B5EEA745 /* Build configuration list for PBXNativeTarget "Pods-TBMessageDemo" */;
 			buildPhases = (
-				958A0E61ADD970753C95693BFABA5F1D /* Sources */,
-				F7BC45E6EB862D48D36B135C194DFCBA /* Frameworks */,
-				1E1B897FAFE26301BEA4B65B938A28AF /* Headers */,
+				814A3302392729977144FBD1EB077B1F /* Sources */,
+				0E0838681169E68E2FAABD857CE083A4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1098192BEBC69AA480AF2C450B8B5DA9 /* PBXTargetDependency */,
+				65CA77303B8D66C6B8CC4D48D4E7EFEA /* PBXTargetDependency */,
+				B7AEA0B937F9CBB4AF18D843611149DA /* PBXTargetDependency */,
+			);
+			name = "Pods-TBMessageDemo";
+			productName = "Pods-TBMessageDemo";
+			productReference = B879E67D5A30524CFE0A975E7E7A8E32 /* libPods-TBMessageDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7037B781D92E5ADEF424C2A1C1655402 /* RMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0A1F9FC3D8801BAC26437E7592EA450 /* Build configuration list for PBXNativeTarget "RMessage" */;
+			buildPhases = (
+				E07A0A35159280962A0BEC8FF517AE60 /* Sources */,
+				E24E3C34C6C0905CDEA6F9106303DA9A /* Frameworks */,
+				EEA60FB88C4BA69A9ED31A19E9FA4F5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6881F39EC787904F67D960738BE3EECA /* PBXTargetDependency */,
+				4FC5C3D829E74BA0CFCF5A107855D4FA /* PBXTargetDependency */,
+				70CD61009878EFC16F0D10ADEB875BDB /* PBXTargetDependency */,
+			);
+			name = RMessage;
+			productName = RMessage;
+			productReference = BC8A18EB0D327FA9D82A4CA8FF04C7C9 /* libRMessage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C3AB34FF7C0D613FDD8BBA538057A42F /* RMessage-MyLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB23F7B262E5B160C553C8BB2A30D73F /* Build configuration list for PBXNativeTarget "RMessage-MyLibrary" */;
+			buildPhases = (
+				BF3D3364F030570F6B6686B3784BBDEB /* Sources */,
+				DA96E364D86BCE951DE4F341813B3984 /* Frameworks */,
+				78E51D286A6480511CD0EB057C0FBE65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RMessage-MyLibrary";
+			productName = "RMessage-MyLibrary";
+			productReference = 17A173432E44F9FCD8E7F54A0A6824A1 /* MyLibrary.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DCEFC80D84D1C5888EC4DE3E3FEED4F8 /* PPTopMostController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFA3AEE5FDF6DACD420F6F7C930168F /* Build configuration list for PBXNativeTarget "PPTopMostController" */;
+			buildPhases = (
+				C012A66F2914B8C961CDBC45D8125678 /* Sources */,
+				B1573321C094A50FD2E18D58E2FB0EE4 /* Frameworks */,
+				A6ECCE95C326F6E379682F0FD61E5E38 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -366,44 +422,8 @@
 			);
 			name = PPTopMostController;
 			productName = PPTopMostController;
-			productReference = 8EDFF66908DE4E61718C2AC18F46BB82 /* libPPTopMostController.a */;
+			productReference = 33085851D0DE4D329F720FFA1D45EF31 /* libPPTopMostController.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		9998B1F2EAFDF3C213088AFB922526A9 /* Pods-TBMessageDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA8EAB7468C37347B519E92A2A89E2F4 /* Build configuration list for PBXNativeTarget "Pods-TBMessageDemo" */;
-			buildPhases = (
-				57BC83B91A002FEB1C69F5DD0481B51B /* Sources */,
-				D61F49A983273905EE6D58F470267EA5 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7AF63AFE80A610306B46FB2BCD37D180 /* PBXTargetDependency */,
-				41FD031012445B781389CBD81EB34664 /* PBXTargetDependency */,
-				9D1A97B4D3365EDBF9C4EDAB417ED97D /* PBXTargetDependency */,
-			);
-			name = "Pods-TBMessageDemo";
-			productName = "Pods-TBMessageDemo";
-			productReference = 6268F937395F1DB8F58CC4E9B934DA99 /* libPods-TBMessageDemo.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		BE7E0E8E6032BBC6763244FC506BA979 /* TBMessage-MyLibrary */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BF1D11EA183B9A115F6FA8BE42D0926D /* Build configuration list for PBXNativeTarget "TBMessage-MyLibrary" */;
-			buildPhases = (
-				219C0774EE830FD676240B730E909654 /* Sources */,
-				67A19E8668DE44742791A4603EAE6C75 /* Frameworks */,
-				ECCFA870A069D64C41F1AC0C7DA4AEB8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "TBMessage-MyLibrary";
-			productName = "TBMessage-MyLibrary";
-			productReference = 25ABAFBBC530331A746149C4B314B5DC /* MyLibrary.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */ = {
 			isa = PBXNativeTarget;
@@ -419,27 +439,7 @@
 			);
 			name = HexColors;
 			productName = HexColors;
-			productReference = 887BADBD4ED83FAF59F8ECCB5DE80726 /* libHexColors.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		F5DDAD85DE706978BC3BD1BF4A845476 /* TBMessage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7A815ABFC14982634AA1255F45518307 /* Build configuration list for PBXNativeTarget "TBMessage" */;
-			buildPhases = (
-				52C22FEB04DFCFC5276BBD915A56417A /* Sources */,
-				F381FAC835953DCDF5DA84BC8648C012 /* Frameworks */,
-				5AAEE561E98327DB3FA892884423F1AD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				469A4524F438FE408F100FB5DB4EA021 /* PBXTargetDependency */,
-				2EED4A41E3B7921E7B17B0A95F645843 /* PBXTargetDependency */,
-				9DFD6770167F84B0BB47C9AE569CC077 /* PBXTargetDependency */,
-			);
-			name = TBMessage;
-			productName = TBMessage;
-			productReference = F35B4F3A31F7835A351C77403DBDA2EC /* libTBMessage.a */;
+			productReference = 0504BDA190AD8CA00CACE4CBDBD37671 /* libHexColors.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -459,65 +459,65 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CA384355B777C808E85EC3A703CC1BE1 /* Products */;
+			productRefGroup = 67D15644260BF328727C57BAA2511F13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */,
-				9998B1F2EAFDF3C213088AFB922526A9 /* Pods-TBMessageDemo */,
-				36021131D35E668D85E02951FFFBE10C /* PPTopMostController */,
-				F5DDAD85DE706978BC3BD1BF4A845476 /* TBMessage */,
-				BE7E0E8E6032BBC6763244FC506BA979 /* TBMessage-MyLibrary */,
+				0849CF8F4EB90626746807CBF5F0F187 /* Pods-TBMessageDemo */,
+				DCEFC80D84D1C5888EC4DE3E3FEED4F8 /* PPTopMostController */,
+				7037B781D92E5ADEF424C2A1C1655402 /* RMessage */,
+				C3AB34FF7C0D613FDD8BBA538057A42F /* RMessage-MyLibrary */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ECCFA870A069D64C41F1AC0C7DA4AEB8 /* Resources */ = {
+		78E51D286A6480511CD0EB057C0FBE65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B85AD06817BF4C6C68B114C3A1B9696 /* RMessageDefaultDesign.json in Resources */,
-				589BAB0595AFEB64F503C8B03E06FF3E /* RMessageView.xib in Resources */,
+				BC83021327EA39B983A50E7FFAB12E06 /* RMessageDefaultDesign.json in Resources */,
+				3F3D86CD490317FE2A80071833630FA0 /* RMessageView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		219C0774EE830FD676240B730E909654 /* Sources */ = {
+		814A3302392729977144FBD1EB077B1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA1D211F4BCF1FDF51F02AE87843C43E /* Pods-TBMessageDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3D3364F030570F6B6686B3784BBDEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52C22FEB04DFCFC5276BBD915A56417A /* Sources */ = {
+		C012A66F2914B8C961CDBC45D8125678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AA121F97E9D6B4C5BD706BD099B0907 /* RMessage.m in Sources */,
-				20F7369400CD4ED822D5A9ACF60953AA /* RMessageView.m in Sources */,
-				129FFCFEE5907325016AF2CAEF0AE0B1 /* TBMessage-dummy.m in Sources */,
+				AA0CC77CD1354AA0268C556AFCE8675D /* PPTopMostController-dummy.m in Sources */,
+				25BF167A66BC7740AF8665FA3553DFA2 /* UINavigationController+PPTopMostController.m in Sources */,
+				3D3C456A384A30EC1D756773093CC424 /* UITabBarController+PPTopMostController.m in Sources */,
+				25188206D8E7D835BB421914F9C7B781 /* UIViewController+PPTopMostController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57BC83B91A002FEB1C69F5DD0481B51B /* Sources */ = {
+		E07A0A35159280962A0BEC8FF517AE60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D4D4A272059E28FC4BEC5EE0A1157CE /* Pods-TBMessageDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		958A0E61ADD970753C95693BFABA5F1D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				290A28D5CC5AF8985EF6E8A667E7AAB8 /* PPTopMostController-dummy.m in Sources */,
-				36FF34967F6BA89F7B762310DE0B5EF5 /* UINavigationController+PPTopMostController.m in Sources */,
-				76748479BB427E89A8E09CDF83B1DB02 /* UITabBarController+PPTopMostController.m in Sources */,
-				FCFF299DED0614FDA2B6D1917280D711 /* UIViewController+PPTopMostController.m in Sources */,
+				5DFD5C5AAD345BB285A29839B894A383 /* RMessage-dummy.m in Sources */,
+				6D34201487ADFD1A5C6264B9A765B6BC /* RMessage.m in Sources */,
+				7DDE215D017C1736F1E2810997B427F2 /* RMessageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,41 +533,41 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2EED4A41E3B7921E7B17B0A95F645843 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PPTopMostController;
-			target = 36021131D35E668D85E02951FFFBE10C /* PPTopMostController */;
-			targetProxy = 185B3B48D9D3D05B90BE4826B233FB62 /* PBXContainerItemProxy */;
-		};
-		41FD031012445B781389CBD81EB34664 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PPTopMostController;
-			target = 36021131D35E668D85E02951FFFBE10C /* PPTopMostController */;
-			targetProxy = CAEAF98AD967019ABDD2FA9E9423AD42 /* PBXContainerItemProxy */;
-		};
-		469A4524F438FE408F100FB5DB4EA021 /* PBXTargetDependency */ = {
+		1098192BEBC69AA480AF2C450B8B5DA9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HexColors;
 			target = EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */;
-			targetProxy = D81CBD62EA6BFAA74E5319F44618CB3C /* PBXContainerItemProxy */;
+			targetProxy = A29CE1DAA4F97EA7E95ADEBEFF267D9A /* PBXContainerItemProxy */;
 		};
-		7AF63AFE80A610306B46FB2BCD37D180 /* PBXTargetDependency */ = {
+		4FC5C3D829E74BA0CFCF5A107855D4FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPTopMostController;
+			target = DCEFC80D84D1C5888EC4DE3E3FEED4F8 /* PPTopMostController */;
+			targetProxy = 9531A0E3F62778A214C66F79F1924BCE /* PBXContainerItemProxy */;
+		};
+		65CA77303B8D66C6B8CC4D48D4E7EFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PPTopMostController;
+			target = DCEFC80D84D1C5888EC4DE3E3FEED4F8 /* PPTopMostController */;
+			targetProxy = 5D8E16598D565A22E0CAD8FB2C5FC9B8 /* PBXContainerItemProxy */;
+		};
+		6881F39EC787904F67D960738BE3EECA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HexColors;
 			target = EC7BAA2B0109B633CE06A36E872A9505 /* HexColors */;
-			targetProxy = 82CA7E025DBDF2AF114D8075826C3435 /* PBXContainerItemProxy */;
+			targetProxy = 024C7717EE2B63F49B629541BC86698A /* PBXContainerItemProxy */;
 		};
-		9D1A97B4D3365EDBF9C4EDAB417ED97D /* PBXTargetDependency */ = {
+		70CD61009878EFC16F0D10ADEB875BDB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TBMessage;
-			target = F5DDAD85DE706978BC3BD1BF4A845476 /* TBMessage */;
-			targetProxy = F2F98A6DCD6975A332C4157B0B701D66 /* PBXContainerItemProxy */;
+			name = "RMessage-MyLibrary";
+			target = C3AB34FF7C0D613FDD8BBA538057A42F /* RMessage-MyLibrary */;
+			targetProxy = E36261063AF18ECF9B75529EE1C1D208 /* PBXContainerItemProxy */;
 		};
-		9DFD6770167F84B0BB47C9AE569CC077 /* PBXTargetDependency */ = {
+		B7AEA0B937F9CBB4AF18D843611149DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "TBMessage-MyLibrary";
-			target = BE7E0E8E6032BBC6763244FC506BA979 /* TBMessage-MyLibrary */;
-			targetProxy = 47CB6D9BDC1A79A518DC04AA44E103FA /* PBXContainerItemProxy */;
+			name = RMessage;
+			target = 7037B781D92E5ADEF424C2A1C1655402 /* RMessage */;
+			targetProxy = FAD0E19C339043622A6E65E3EAE677EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -630,44 +630,21 @@
 			};
 			name = Release;
 		};
-		13A615947DA8DF2878249A4B2D2B96F0 /* Release */ = {
+		2A101930A7B916EAF624B293F9DE1E69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E03521C832936F185799B6DC1064F9A4 /* Pods-TBMessageDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2A5DD246567C5F9D1A1062771F596960 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B159906A88C6E72F153F2F993FD86E61 /* PPTopMostController.xcconfig */;
+			baseConfigurationReference = AE4245B938C948957E46B86685ECA833 /* RMessage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				GCC_PREFIX_HEADER = "Target Support Files/RMessage/RMessage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = PPTopMostController;
-				PRODUCT_NAME = PPTopMostController;
+				PRODUCT_MODULE_NAME = RMessage;
+				PRODUCT_NAME = RMessage;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -678,7 +655,7 @@
 		};
 		32C6F385E04C931C30776B0A1B01D0A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 502E9A65428451C9FF23FC5AAEE89F98 /* HexColors.xcconfig */;
+			baseConfigurationReference = 15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -699,60 +676,21 @@
 			};
 			name = Debug;
 		};
-		610FDB05013B825B6B0C11E6A79FA766 /* Release */ = {
+		3CB9E60A9AA17D39B18276F286DD5EAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C83D8D0C71141172A293C273DFEBF7 /* TBMessage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TBMessage";
-				INFOPLIST_FILE = "Target Support Files/TBMessage/ResourceBundle-MyLibrary-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = MyLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		62ED6A8F1B308474D9F99914A03E9A43 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C83D8D0C71141172A293C273DFEBF7 /* TBMessage.xcconfig */;
+			baseConfigurationReference = 304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TBMessage/TBMessage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TBMessage;
-				PRODUCT_NAME = TBMessage;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		7BACE61458CDA34DBFDC9D03BFE74984 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C83D8D0C71141172A293C273DFEBF7 /* TBMessage.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TBMessage/TBMessage-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TBMessage;
-				PRODUCT_NAME = TBMessage;
+				PRODUCT_MODULE_NAME = PPTopMostController;
+				PRODUCT_NAME = PPTopMostController;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -761,6 +699,29 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		4497B0DCBEF1196CE09A8EAD9C1F549B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304729F92306EE328D2820D4DA96C785 /* PPTopMostController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PPTopMostController;
+				PRODUCT_NAME = PPTopMostController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -825,25 +786,24 @@
 			};
 			name = Debug;
 		};
-		9260C2B44FB3ADCA5F5158AB91996CAB /* Release */ = {
+		8CDEA3A520E7C3D5C6F72C3658AF1D2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B159906A88C6E72F153F2F993FD86E61 /* PPTopMostController.xcconfig */;
+			baseConfigurationReference = E03521C832936F185799B6DC1064F9A4 /* Pods-TBMessageDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/PPTopMostController/PPTopMostController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = PPTopMostController;
-				PRODUCT_NAME = PPTopMostController;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -851,7 +811,7 @@
 		};
 		95A24FB4983FB55C33BB223A9CE877BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 502E9A65428451C9FF23FC5AAEE89F98 /* HexColors.xcconfig */;
+			baseConfigurationReference = 15D0934CA62F4553389A16605567ED94 /* HexColors.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -873,13 +833,29 @@
 			};
 			name = Release;
 		};
-		BF1C2F4BAB74E8F76B4309CF8A58AD25 /* Debug */ = {
+		963FC6B41C7E97074E2A54CD049F19D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20C83D8D0C71141172A293C273DFEBF7 /* TBMessage.xcconfig */;
+			baseConfigurationReference = AE4245B938C948957E46B86685ECA833 /* RMessage.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TBMessage";
-				INFOPLIST_FILE = "Target Support Files/TBMessage/ResourceBundle-MyLibrary-Info.plist";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RMessage";
+				INFOPLIST_FILE = "Target Support Files/RMessage/ResourceBundle-MyLibrary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MyLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B865B5E67BCB89213AC7BD0768746631 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4245B938C948957E46B86685ECA833 /* RMessage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RMessage";
+				INFOPLIST_FILE = "Target Support Files/RMessage/ResourceBundle-MyLibrary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = MyLibrary;
 				SDKROOT = iphoneos;
@@ -889,7 +865,31 @@
 			};
 			name = Debug;
 		};
-		E5FBA76D357C25BAD2376AA1813E4D6B /* Debug */ = {
+		E3CC8A73A542AD16E4F60C7C9510A297 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4245B938C948957E46B86685ECA833 /* RMessage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/RMessage/RMessage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = RMessage;
+				PRODUCT_NAME = RMessage;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F14D4242DB4C14045F621F8CA7FAFCE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7CB21BE5A6157533826CBC7A95CB0348 /* Pods-TBMessageDemo.debug.xcconfig */;
 			buildSettings = {
@@ -923,38 +923,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		609F3D6F7D8A5E40155A9A5426CE95F2 /* Build configuration list for PBXNativeTarget "PPTopMostController" */ = {
+		4FFA3AEE5FDF6DACD420F6F7C930168F /* Build configuration list for PBXNativeTarget "PPTopMostController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A5DD246567C5F9D1A1062771F596960 /* Debug */,
-				9260C2B44FB3ADCA5F5158AB91996CAB /* Release */,
+				4497B0DCBEF1196CE09A8EAD9C1F549B /* Debug */,
+				3CB9E60A9AA17D39B18276F286DD5EAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A815ABFC14982634AA1255F45518307 /* Build configuration list for PBXNativeTarget "TBMessage" */ = {
+		789B69639D06619197F1FD98B5EEA745 /* Build configuration list for PBXNativeTarget "Pods-TBMessageDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				62ED6A8F1B308474D9F99914A03E9A43 /* Debug */,
-				7BACE61458CDA34DBFDC9D03BFE74984 /* Release */,
+				F14D4242DB4C14045F621F8CA7FAFCE2 /* Debug */,
+				8CDEA3A520E7C3D5C6F72C3658AF1D2C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF1D11EA183B9A115F6FA8BE42D0926D /* Build configuration list for PBXNativeTarget "TBMessage-MyLibrary" */ = {
+		BB23F7B262E5B160C553C8BB2A30D73F /* Build configuration list for PBXNativeTarget "RMessage-MyLibrary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF1C2F4BAB74E8F76B4309CF8A58AD25 /* Debug */,
-				610FDB05013B825B6B0C11E6A79FA766 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA8EAB7468C37347B519E92A2A89E2F4 /* Build configuration list for PBXNativeTarget "Pods-TBMessageDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E5FBA76D357C25BAD2376AA1813E4D6B /* Debug */,
-				13A615947DA8DF2878249A4B2D2B96F0 /* Release */,
+				B865B5E67BCB89213AC7BD0768746631 /* Debug */,
+				963FC6B41C7E97074E2A54CD049F19D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -964,6 +955,15 @@
 			buildConfigurations = (
 				32C6F385E04C931C30776B0A1B01D0A3 /* Debug */,
 				95A24FB4983FB55C33BB223A9CE877BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0A1F9FC3D8801BAC26437E7592EA450 /* Build configuration list for PBXNativeTarget "RMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A101930A7B916EAF624B293F9DE1E69 /* Debug */,
+				E3CC8A73A542AD16E4F60C7C9510A297 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

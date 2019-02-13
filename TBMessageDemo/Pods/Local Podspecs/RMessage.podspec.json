@@ -1,7 +1,7 @@
 {
-  "name": "TBMessage",
-  "version": "0.0.5",
-  "summary": "TBMessage",
+  "name": "RMessage",
+  "version": "0.0.6",
+  "summary": "RMessage",
   "description": "description",
   "homepage": "https://github.com/FJust/TBMessage",
   "license": {
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/FJust/TBMessage.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "source_files": [
     "Classes",

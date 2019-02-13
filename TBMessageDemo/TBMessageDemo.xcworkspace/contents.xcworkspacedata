@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:RMessage.bundle">
+   </FileRef>
+   <FileRef
       location = "group:TBMessageDemo.xcodeproj">
    </FileRef>
    <FileRef
