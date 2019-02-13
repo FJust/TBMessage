@@ -30,10 +30,10 @@
   },
   "dependencies": {
     "PPTopMostController": [
-
+      "~> 0.0.1"
     ],
     "HexColors": [
-
+      "~> 4.0.0"
     ]
   }
 }

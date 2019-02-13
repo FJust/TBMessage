@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "TBMessage"
-  s.version      = "0.0.5"
-  s.summary      = "TBMessage"
+  s.name         = "RMessage"
+  s.version      = "0.0.6"
+  s.summary      = "RMessage"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?

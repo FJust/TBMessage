@@ -1,9 +1,9 @@
 PODS:
-  - HexColors (6.0.0)
+  - HexColors (4.0.0)
   - PPTopMostController (0.0.1)
   - TBMessage (0.0.5):
-    - HexColors
-    - PPTopMostController
+    - HexColors (~> 4.0.0)
+    - PPTopMostController (~> 0.0.1)
 
 DEPENDENCIES:
   - TBMessage (from `https://github.com/FJust/TBMessage.git`)
@@ -19,13 +19,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TBMessage:
-    :commit: d304c10c938f817e2be662020ff4827aff7c1350
+    :commit: 3f0854c596ce0f32489ebcea212f2e6189b242c0
     :git: https://github.com/FJust/TBMessage.git
 
 SPEC CHECKSUMS:
-  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
-  TBMessage: 48fb1987758db690e0d018b6333da21053b79b31
+  TBMessage: b62336e03abe5243cf235de064d80c5b49b5815b
 
 PODFILE CHECKSUM: 869ef4a4731c5ccc48dfbb56d285518670727373
 
