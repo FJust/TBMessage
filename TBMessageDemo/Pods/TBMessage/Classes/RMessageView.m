@@ -266,10 +266,7 @@ static NSMutableDictionary *globalDesignDictionary;
                       atPosition:(RMessagePosition)position
             canBeDismissedByUser:(BOOL)dismissingEnabled
 {
-    
-    NSArray *array = [[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil];
-    
-    self = array.firstObject;
+  self = [[NSBundle bundleForClass:[self class]] loadNibNamed:NSStringFromClass([self class]) owner:self options:nil].firstObject;
   if (self) {
     self.accessibilityIdentifier = @"RMessageView";
     _delegate = delegate;

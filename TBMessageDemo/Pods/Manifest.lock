@@ -19,13 +19,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   TBMessage:
-    :commit: 7e0ac77e5832945ca7de7ee5ebf5a17bade34bd1
+    :commit: 784827695ca3828e25f63ed45a1c90d5c71e4d00
     :git: https://github.com/FJust/TBMessage.git
 
 SPEC CHECKSUMS:
   HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
-  TBMessage: a06a04d70c71881b684db1369bfe03e056a54271
+  TBMessage: c182a6959ef63d952bc4b29e4f0feb9f5c24b783
 
 PODFILE CHECKSUM: 869ef4a4731c5ccc48dfbb56d285518670727373
 

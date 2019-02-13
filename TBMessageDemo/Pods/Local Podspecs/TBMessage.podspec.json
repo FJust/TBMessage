@@ -25,7 +25,7 @@
   "exclude_files": "Classes/Exclude",
   "resource_bundles": {
     "RMessageView": [
-      "Resources/**/*.{png,xib,json}"
+      "Resources/**/*.{png,xib,json,bundle}"
     ]
   },
   "dependencies": {
