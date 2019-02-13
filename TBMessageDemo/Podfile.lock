@@ -1,12 +1,12 @@
 PODS:
   - HexColors (4.0.0)
   - PPTopMostController (0.0.1)
-  - RMessage (0.0.6):
+  - TBMessage (0.0.7):
     - HexColors (~> 4.0.0)
     - PPTopMostController (~> 0.0.1)
 
 DEPENDENCIES:
-  - RMessage (from `https://github.com/FJust/TBMessage.git`)
+  - TBMessage (from `https://github.com/FJust/TBMessage.git`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -14,19 +14,19 @@ SPEC REPOS:
     - PPTopMostController
 
 EXTERNAL SOURCES:
-  RMessage:
+  TBMessage:
     :git: https://github.com/FJust/TBMessage.git
 
 CHECKOUT OPTIONS:
-  RMessage:
-    :commit: 97f3099dc4a110f218cc780dcf0baf5b760b0cfe
+  TBMessage:
+    :commit: 62960ef8bb250c4ae2fe049e5137e91fcfcecc30
     :git: https://github.com/FJust/TBMessage.git
 
 SPEC CHECKSUMS:
   HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
   PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
-  RMessage: d75873018afdef53bc6e03792d83b8153c1910af
+  TBMessage: 98cb128ce9354df908373a5d53ce851c97568062
 
-PODFILE CHECKSUM: 46f6e651d7af236affab28110f83b16941b97ba9
+PODFILE CHECKSUM: 869ef4a4731c5ccc48dfbb56d285518670727373
 
 COCOAPODS: 1.5.0

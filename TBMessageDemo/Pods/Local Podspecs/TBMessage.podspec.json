@@ -1,7 +1,7 @@
 {
-  "name": "RMessage",
-  "version": "0.0.6",
-  "summary": "RMessage",
+  "name": "TBMessage",
+  "version": "0.0.7",
+  "summary": "TBMessage",
   "description": "description",
   "homepage": "https://github.com/FJust/TBMessage",
   "license": {
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/FJust/TBMessage.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "source_files": [
     "Classes",
@@ -24,7 +24,7 @@
   ],
   "exclude_files": "Classes/Exclude",
   "resource_bundles": {
-    "MyLibrary": [
+    "RMessage": [
       "Resources/**/*.{png,xib,json}"
     ]
   },
