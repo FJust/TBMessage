@@ -789,7 +789,7 @@ static NSMutableDictionary *globalDesignDictionary;
   if (buttonTitleFontName) {
     _button.titleLabel.font = [UIFont fontWithName:buttonTitleFontName size:buttonTitleFontSize];
   } else if (buttonTitleFontSize) {
-    _button.titleLabel.font = [UIFont boldSystemFontOfSize:buttonTitleFontSize];
+    _button.titleLabel.font = [UIFont systemFontOfSize:buttonTitleFontSize];
   }
 
   UIImage *buttonResizeableBackgroundImage = [[self class] bundledImageNamed:_designDictionary[@"buttonResizeableBackgroundImage"]];
