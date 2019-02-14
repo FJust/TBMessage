@@ -941,7 +941,7 @@ static NSMutableDictionary *globalDesignDictionary;
                                                                             attribute:NSLayoutAttributeTop
                                                                             relatedBy:NSLayoutRelationGreaterThanOrEqual
                                                                                toItem:self.titleLabel
-                                                                            attribute:NSLayoutAttributeTop
+                                                                            attribute:NSLayoutAttributeBottom
                                                                            multiplier:1.f
                                                                              constant:5.f];
     
