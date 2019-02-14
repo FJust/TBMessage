@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "RMessage"
-  s.version      = "0.1.3"
-  s.summary      = "RMessage"
+  s.name         = "TBMessage"
+  s.version      = "0.0.1"
+  s.summary      = "TBMessage"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "Resources/**/*.{png,json,xib}"
+  s.resources = "Resources/**/*.{png,json}"
 
   # s.preserve_paths = "Assets", "Resources"
 
