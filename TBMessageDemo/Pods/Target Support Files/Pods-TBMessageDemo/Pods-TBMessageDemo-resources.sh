@@ -92,10 +92,28 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessageView.bundle"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/RMessageDefaultDesign.json"
+  install_resource "${PODS_ROOT}/RMessage/Resources/RMessageView.xib"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessageView.bundle"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground@2x.png"
+  install_resource "${PODS_ROOT}/RMessage/Resources/RMessageDefaultDesign.json"
+  install_resource "${PODS_ROOT}/RMessage/Resources/RMessageView.xib"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -1,6 +1,6 @@
 {
   "name": "RMessage",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "RMessage",
   "description": "description",
   "homepage": "https://github.com/FJust/TBMessage",
@@ -16,18 +16,14 @@
   },
   "source": {
     "git": "https://github.com/FJust/TBMessage.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "source_files": [
     "Classes",
     "Classes/**/*.{h,m}"
   ],
   "exclude_files": "Classes/Exclude",
-  "resource_bundles": {
-    "RMessageView": [
-      "Resources/**/*.{png,json,xib}"
-    ]
-  },
+  "resources": "Resources/**/*.{png,json,xib}",
   "dependencies": {
     "PPTopMostController": [
       "~> 0.0.1"

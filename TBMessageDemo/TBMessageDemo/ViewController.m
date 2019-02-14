@@ -16,6 +16,10 @@
 
 @implementation ViewController
 
++ (void)load {
+    [RMessage addDesignsFromFileWithName:@"PopMessageDesigns" inBundle:[NSBundle mainBundle]];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -27,13 +31,13 @@
 - (void)showAlert {
     [RMessage showNotificationInViewController:self
                                          title:@"推送"
-                                      subtitle:@"推送内容"
-                                     iconImage:nil
+                                      subtitle:@"推送内容佛挡杀佛是否是的发送到发送到发送到发送到钱塘江南报关单非得更高如果出"
+                                     iconImage:[UIImage imageNamed:@"item_abnormal_stock"]
                                           type:RMessageTypeCustom
                                 customTypeName:@"pop-message"
                                       duration:3
                                       callback:nil
-                                   buttonTitle:@"按钮"
+                                   buttonTitle:@""
                                 buttonCallback:nil
                                     atPosition:RMessagePositionNavBarOverlay
                           canBeDismissedByUser:YES];

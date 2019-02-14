@@ -1,0 +1,10 @@
+{
+    "pop-message": {
+        "backgroundColor": "#f8cc00",
+        "opacity": 1,
+        "titleFontSize": 19,
+        "titleTextColor": "#000000",
+        "subTitleFontSize": 13,
+        "subTitleTextColor": "#000000"
+    }
+}

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		92F987751DB3186E044A09A4 /* libPods-TBMessageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EADEF24B7087E6A2DF2FA02C /* libPods-TBMessageDemo.a */; };
+		F31D59AA22141A5900B7D4E9 /* PopMessageDesigns.json in Resources */ = {isa = PBXBuildFile; fileRef = F31D59A922141A5900B7D4E9 /* PopMessageDesigns.json */; };
 		F3D3419321F1C56700AB7B67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3419221F1C56700AB7B67 /* AppDelegate.m */; };
 		F3D3419621F1C56700AB7B67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D3419521F1C56700AB7B67 /* ViewController.m */; };
 		F3D3419921F1C56700AB7B67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D3419721F1C56700AB7B67 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		002B84A89BEEA01E56DEAE6E /* Pods-TBMessageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMessageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TBMessageDemo/Pods-TBMessageDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AD77AA3B0040280B8A7F313C /* Pods-TBMessageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TBMessageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TBMessageDemo/Pods-TBMessageDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		EADEF24B7087E6A2DF2FA02C /* libPods-TBMessageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TBMessageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31D59A922141A5900B7D4E9 /* PopMessageDesigns.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PopMessageDesigns.json; sourceTree = "<group>"; };
 		F3D3418E21F1C56700AB7B67 /* TBMessageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBMessageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D3419121F1C56700AB7B67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3D3419221F1C56700AB7B67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		F3D3419021F1C56700AB7B67 /* TBMessageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F31D59A922141A5900B7D4E9 /* PopMessageDesigns.json */,
 				F3D3419121F1C56700AB7B67 /* AppDelegate.h */,
 				F3D3419221F1C56700AB7B67 /* AppDelegate.m */,
 				F3D3419421F1C56700AB7B67 /* ViewController.h */,
@@ -157,6 +160,7 @@
 				F3D3419E21F1C56900AB7B67 /* LaunchScreen.storyboard in Resources */,
 				F3D3419B21F1C56900AB7B67 /* Assets.xcassets in Resources */,
 				F3D3419921F1C56700AB7B67 /* Main.storyboard in Resources */,
+				F31D59AA22141A5900B7D4E9 /* PopMessageDesigns.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,11 +192,29 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TBMessageDemo/Pods-TBMessageDemo-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/RMessage/RMessageView.bundle",
+				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon.png",
+				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon@2x.png",
+				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon.png",
+				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon@2x.png",
+				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon.png",
+				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon@2x.png",
+				"${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground.png",
+				"${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground@2x.png",
+				"${PODS_ROOT}/RMessage/Resources/RMessageDefaultDesign.json",
+				"${PODS_ROOT}/RMessage/Resources/RMessageView.xib",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageView.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundErrorIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundSuccessIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationBackgroundWarningIcon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageDefaultDesign.json",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageView.nib",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -354,7 +376,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7MYU4KRRXL;
 				INFOPLIST_FILE = TBMessageDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.just.TBMessageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -369,7 +394,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7MYU4KRRXL;
 				INFOPLIST_FILE = TBMessageDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.just.TBMessageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
