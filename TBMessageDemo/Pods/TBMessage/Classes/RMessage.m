@@ -101,7 +101,7 @@ static NSLock *mLock, *nLock;
                          duration:(NSTimeInterval)duration
                          callback:(void (^)(void))callback
                       buttonTitle:(NSString *)buttonTitle
-                   buttonCallback:(void (^)(void))buttonCallback
+                   buttonCallback:(void(^)(UIButton *button))buttonCallback
                        atPosition:(RMessagePosition)messagePosition
              canBeDismissedByUser:(BOOL)dismissingEnabled
 {
@@ -194,7 +194,7 @@ static NSLock *mLock, *nLock;
                                 duration:(NSTimeInterval)duration
                                 callback:(void (^)(void))callback
                              buttonTitle:(NSString *)buttonTitle
-                          buttonCallback:(void (^)(void))buttonCallback
+                          buttonCallback:(void(^)(UIButton *button))buttonCallback
                               atPosition:(RMessagePosition)messagePosition
                     canBeDismissedByUser:(BOOL)dismissingEnabled
 {
@@ -225,7 +225,7 @@ static NSLock *mLock, *nLock;
                     presentingCompletion:(void (^)(void))presentingCompletionCallback
                        dismissCompletion:(void (^)(void))dismissCompletionCallback
                              buttonTitle:(NSString *)buttonTitle
-                          buttonCallback:(void (^)(void))buttonCallback
+                          buttonCallback:(void(^)(UIButton *button))buttonCallback
                               atPosition:(RMessagePosition)messagePosition
                     canBeDismissedByUser:(BOOL)dismissingEnabled
 {

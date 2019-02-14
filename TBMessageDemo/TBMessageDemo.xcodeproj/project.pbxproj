@@ -192,16 +192,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TBMessageDemo/Pods-TBMessageDemo-resources.sh",
-				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon.png",
-				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundErrorIcon@2x.png",
-				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon.png",
-				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundSuccessIcon@2x.png",
-				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon.png",
-				"${PODS_ROOT}/RMessage/Resources/NotificationBackgroundWarningIcon@2x.png",
-				"${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground.png",
-				"${PODS_ROOT}/RMessage/Resources/NotificationButtonBackground@2x.png",
-				"${PODS_ROOT}/RMessage/Resources/RMessageDefaultDesign.json",
-				"${PODS_ROOT}/RMessage/Resources/RMessageView.xib",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationBackgroundErrorIcon.png",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationBackgroundErrorIcon@2x.png",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationBackgroundSuccessIcon.png",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationBackgroundSuccessIcon@2x.png",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationBackgroundWarningIcon.png",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationBackgroundWarningIcon@2x.png",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationButtonBackground.png",
+				"${PODS_ROOT}/TBMessage/Resources/NotificationButtonBackground@2x.png",
+				"${PODS_ROOT}/TBMessage/Resources/RMessageDefaultDesign.json",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -214,7 +213,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NotificationButtonBackground@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageDefaultDesign.json",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RMessageView.nib",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -376,10 +374,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7MYU4KRRXL;
 				INFOPLIST_FILE = TBMessageDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.just.TBMessageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,10 +389,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7MYU4KRRXL;
 				INFOPLIST_FILE = TBMessageDemo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.just.TBMessageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -29,7 +29,25 @@
 }
 
 - (void)showAlert {
-    [RMessage showNotificationInViewController:self
+    
+    UIWindow *windowForTip = [[UIApplication sharedApplication] keyWindow];
+    if(windowForTip.windowLevel != UIWindowLevelNormal){
+        for(UIWindow *window in [UIApplication sharedApplication].windows){
+            if(window.hidden == NO && window.windowLevel == UIWindowLevelNormal){
+                windowForTip = window;
+                break;
+            }
+        }
+    }
+    
+    // 将RMessageView显示在新的vc上，实现遮罩功能
+    UIViewController *messageViewController = [[UIViewController alloc] init];
+    if (!messageViewController.view.superview) {
+        messageViewController.view.frame = windowForTip.bounds;
+        [windowForTip addSubview:messageViewController.view];
+    }
+    
+    [RMessage showNotificationInViewController:messageViewController
                                          title:@"推送"
                                       subtitle:@"推送内容佛挡杀佛是否是的发送到发送到发送到发送到钱塘江南报关单非得更高如果出"
                                      iconImage:[UIImage imageNamed:@"item_abnormal_stock"]
@@ -37,7 +55,7 @@
                                 customTypeName:@"pop-message"
                                       duration:3
                                       callback:nil
-                                   buttonTitle:@""
+                                   buttonTitle:@"今日提示一次"
                                 buttonCallback:nil
                                     atPosition:RMessagePositionNavBarOverlay
                           canBeDismissedByUser:YES];

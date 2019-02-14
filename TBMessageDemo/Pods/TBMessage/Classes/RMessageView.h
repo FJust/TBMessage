@@ -103,7 +103,7 @@
                 inViewController:(UIViewController *)viewController
                         callback:(void (^)(void))callback
                      buttonTitle:(NSString *)buttonTitle
-                  buttonCallback:(void (^)(void))buttonCallback
+                  buttonCallback:(void(^)(UIButton *button))buttonCallback
                       atPosition:(RMessagePosition)position
             canBeDismissedByUser:(BOOL)dismissingEnabled;
 
@@ -135,7 +135,7 @@
             presentingCompletion:(void (^)(void))presentingCompletionCallback
                dismissCompletion:(void (^)(void))dismissCompletionCallback
                      buttonTitle:(NSString *)buttonTitle
-                  buttonCallback:(void (^)(void))buttonCallback
+                  buttonCallback:(void(^)(UIButton *button))buttonCallback
                       atPosition:(RMessagePosition)position
             canBeDismissedByUser:(BOOL)dismissingEnabled;
 

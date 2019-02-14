@@ -139,7 +139,7 @@ typedef NS_ENUM(NSInteger, RMessageDuration) { RMessageDurationAutomatic = 0, RM
                          duration:(NSTimeInterval)duration
                          callback:(void (^)(void))callback
                       buttonTitle:(NSString *)buttonTitle
-                   buttonCallback:(void (^)(void))buttonCallback
+                   buttonCallback:(void(^)(UIButton *button))buttonCallback
                        atPosition:(RMessagePosition)messagePosition
              canBeDismissedByUser:(BOOL)dismissingEnabled;
 
@@ -232,7 +232,7 @@ typedef NS_ENUM(NSInteger, RMessageDuration) { RMessageDurationAutomatic = 0, RM
                                 duration:(NSTimeInterval)duration
                                 callback:(void (^)(void))callback
                              buttonTitle:(NSString *)buttonTitle
-                          buttonCallback:(void (^)(void))buttonCallback
+                          buttonCallback:(void(^)(UIButton *button))buttonCallback
                               atPosition:(RMessagePosition)messagePosition
                     canBeDismissedByUser:(BOOL)dismissingEnabled;
 
@@ -266,7 +266,7 @@ typedef NS_ENUM(NSInteger, RMessageDuration) { RMessageDurationAutomatic = 0, RM
                     presentingCompletion:(void (^)(void))presentingCompletionCallback
                        dismissCompletion:(void (^)(void))dismissCompletionCallback
                              buttonTitle:(NSString *)buttonTitle
-                          buttonCallback:(void (^)(void))buttonCallback
+                          buttonCallback:(void(^)(UIButton *button))buttonCallback
                               atPosition:(RMessagePosition)messagePosition
                     canBeDismissedByUser:(BOOL)dismissingEnabled;
 /**
