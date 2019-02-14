@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "RMessage.h"
 #import "RMessageView.h"
+#import "UIButton+TBAddition.h"
+
 
 @interface ViewController ()
 
@@ -26,6 +28,16 @@
     
     [self showAlert];
     
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor redColor];
+    [button setTitle:@"今日不在提醒" forState:UIControlStateNormal];
+    [button setImage:[UIImage imageNamed:@"icon_stockAlert_select"] forState:UIControlStateNormal];
+    button.titleLabel.font = [UIFont boldSystemFontOfSize:12.f];
+    [button relayoutWithType:TBButtonTypeHorizontalTitleImage margin:5];
+    button.frame = CGRectMake(200, 500, 101, 15);
+    
+    [self.view addSubview:button];
 }
 
 - (void)showAlert {
