@@ -51,7 +51,7 @@
     RMessageView *messageView = [[RMessageView alloc] initWithDelegate:[RMessage sharedMessage]
                                                                  title:@"发的说法是的方式豆腐啥的发斯蒂芬退换货iuiuyiz与体育体育涂一涂土洋结合建国门内"
                                                               subtitle:@"发的说法是的方式豆腐啥的发斯蒂芬退换货iuiuyiz与体育体育涂一涂土洋结合建国门内"
-                                                             iconImage:[UIImage imageNamed:@"item_abnormal_stock"]
+                                                             iconImage:nil
                                                                   type:RMessageTypeCustom
                                                         customTypeName:@"pop-message"
                                                               duration:3
