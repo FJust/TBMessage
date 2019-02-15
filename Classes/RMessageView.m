@@ -630,6 +630,7 @@ static NSMutableDictionary *globalDesignDictionary;
   _subtitleLabel.backgroundColor = nil;
 
   _button.titleLabel.font = [UIFont boldSystemFontOfSize:14.0];
+  _button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
   [_button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   _iconImageView.clipsToBounds = NO;
 }
@@ -952,7 +953,6 @@ static NSMutableDictionary *globalDesignDictionary;
 {
   _button.translatesAutoresizingMaskIntoConstraints = NO;
     
-    [_button sizeToFit];
     
   NSLayoutConstraint *buttonViewLeading = [NSLayoutConstraint constraintWithItem:_button
                                                                           attribute:NSLayoutAttributeLeading
@@ -979,9 +979,9 @@ static NSMutableDictionary *globalDesignDictionary;
     
     CGFloat buttonWidth = 0;
     if (_button && (_button.imageView.image || _button.titleLabel.text.length > 0)) {
-        buttonWidth = _button.bounds.size.width + 5;
+        buttonWidth = _button.bounds.size.width + 15.f;
     }
-
+    
   NSLayoutConstraint *buttonViewWidth = [NSLayoutConstraint constraintWithItem:_button
                                                                         attribute:NSLayoutAttributeWidth
                                                                         relatedBy:NSLayoutRelationEqual
@@ -998,7 +998,7 @@ static NSMutableDictionary *globalDesignDictionary;
                                                                        constant:0.f];
 
   [self.textContainerView addSubview:_button];
-  [[self class] activateConstraints:@[buttonViewLeading, buttonViewCenterY, buttonViewTrailing, buttonViewBottomSpacing, buttonViewWidth] inSuperview:self.textContainerView];
+  [[self class] activateConstraints:@[buttonViewLeading, buttonViewCenterY, buttonViewTrailing, buttonViewWidth, buttonViewBottomSpacing] inSuperview:self.textContainerView];
 }
 
 - (void)setupIconImageView
