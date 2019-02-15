@@ -630,7 +630,6 @@ static NSMutableDictionary *globalDesignDictionary;
   _subtitleLabel.backgroundColor = nil;
 
   _button.titleLabel.font = [UIFont boldSystemFontOfSize:14.0];
-  _button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
   [_button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   _iconImageView.clipsToBounds = NO;
 }
@@ -841,7 +840,7 @@ static NSMutableDictionary *globalDesignDictionary;
     
     NSLayoutConstraint *containerViewLeading = [NSLayoutConstraint constraintWithItem:_textContainerView
                                                                          attribute:NSLayoutAttributeLeading
-                                                                         relatedBy:NSLayoutRelationGreaterThanOrEqual
+                                                                         relatedBy:NSLayoutRelationEqual
                                                                             toItem:self
                                                                          attribute:NSLayoutAttributeLeading
                                                                         multiplier:1.f
@@ -878,12 +877,7 @@ static NSMutableDictionary *globalDesignDictionary;
 - (void)setupTitleConstraints
 {
     _titleLabel.translatesAutoresizingMaskIntoConstraints = NO;
-    
-    CGFloat buttonLeading = 15;
-    if (_button) {
-        buttonLeading = 15 + _button.bounds.size.width + 15;
-    }
-    
+
     NSLayoutConstraint *titleLabelLeading = [NSLayoutConstraint constraintWithItem:_titleLabel
                                                                          attribute:NSLayoutAttributeLeading
                                                                          relatedBy:NSLayoutRelationEqual
@@ -924,7 +918,7 @@ static NSMutableDictionary *globalDesignDictionary;
     NSLayoutConstraint *subtitlelLabelTrailing = [NSLayoutConstraint constraintWithItem:_subtitleLabel
                                                                                   attribute:NSLayoutAttributeTrailing
                                                                                   relatedBy:NSLayoutRelationEqual
-                                                                                     toItem:self
+                                                                                     toItem:self.textContainerView
                                                                                   attribute:NSLayoutAttributeTrailing
                                                                                  multiplier:1.f
                                                                                    constant:-15.f];
@@ -939,7 +933,7 @@ static NSMutableDictionary *globalDesignDictionary;
     
     NSLayoutConstraint *subtitlelLabelTopSpacing = [NSLayoutConstraint constraintWithItem:_subtitleLabel
                                                                             attribute:NSLayoutAttributeTop
-                                                                            relatedBy:NSLayoutRelationGreaterThanOrEqual
+                                                                            relatedBy:NSLayoutRelationEqual
                                                                                toItem:self.titleLabel
                                                                             attribute:NSLayoutAttributeBottom
                                                                            multiplier:1.f
@@ -979,16 +973,25 @@ static NSMutableDictionary *globalDesignDictionary;
     
     CGFloat buttonWidth = 0;
     if (_button && (_button.imageView.image || _button.titleLabel.text.length > 0)) {
-        buttonWidth = _button.bounds.size.width + 15.f;
+        
+        UIImage *normalImage = [_button imageForState:UIControlStateNormal];
+        NSString *normalTitle = [_button titleForState:UIControlStateNormal];
+        CGSize titleSize = [normalTitle boundingRectWithSize:CGSizeMake(CGFLOAT_MAX, CGFLOAT_MAX)
+                                                     options:NSStringDrawingUsesLineFragmentOrigin
+                                                  attributes:@{NSFontAttributeName : _button.titleLabel.font}
+                                                     context:nil].size;
+        
+        buttonWidth = normalImage.size.width + titleSize.width + 5.f;
     }
     
-  NSLayoutConstraint *buttonViewWidth = [NSLayoutConstraint constraintWithItem:_button
-                                                                        attribute:NSLayoutAttributeWidth
-                                                                        relatedBy:NSLayoutRelationEqual
-                                                                           toItem:nil
-                                                                        attribute:NSLayoutAttributeNotAnAttribute
-                                                                       multiplier:1.f
-                                                                         constant: buttonWidth];
+    NSLayoutConstraint *buttonViewWidth = [NSLayoutConstraint constraintWithItem:_button
+                                                                       attribute:NSLayoutAttributeWidth
+                                                                       relatedBy:NSLayoutRelationEqual
+                                                                          toItem:nil
+                                                                       attribute:NSLayoutAttributeNotAnAttribute
+                                                                      multiplier:1.f
+                                                                        constant: buttonWidth];
+
   NSLayoutConstraint *buttonViewBottomSpacing = [NSLayoutConstraint constraintWithItem:_button
                                                                       attribute:NSLayoutAttributeBottom
                                                                       relatedBy:NSLayoutRelationLessThanOrEqual
@@ -998,7 +1001,7 @@ static NSMutableDictionary *globalDesignDictionary;
                                                                        constant:0.f];
 
   [self.textContainerView addSubview:_button];
-  [[self class] activateConstraints:@[buttonViewLeading, buttonViewCenterY, buttonViewTrailing, buttonViewWidth, buttonViewBottomSpacing] inSuperview:self.textContainerView];
+  [[self class] activateConstraints:@[buttonViewLeading, buttonViewCenterY, buttonViewTrailing, buttonViewBottomSpacing, buttonViewWidth] inSuperview:self.textContainerView];
 }
 
 - (void)setupIconImageView

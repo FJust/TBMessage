@@ -59,18 +59,50 @@
         [windowForTip addSubview:messageViewController.view];
     }
     
-    [RMessage showNotificationInViewController:messageViewController
-                                         title:@"推送"
-                                      subtitle:@"推送内容佛挡杀佛是否是的发送到发送到发送到发送到钱塘江南报关单非得更高如果出"
-                                     iconImage:[UIImage imageNamed:@"item_abnormal_stock"]
-                                          type:RMessageTypeCustom
-                                customTypeName:@"pop-message"
-                                      duration:3
-                                      callback:nil
-                                   buttonTitle:@"今日提示一次"
-                                buttonCallback:nil
-                                    atPosition:RMessagePositionNavBarOverlay
-                          canBeDismissedByUser:YES];
+    RMessageView *messageView = [[RMessageView alloc] initWithDelegate:[RMessage sharedMessage]
+                                                                 title:@"推送"
+                                                              subtitle:@"推送"
+                                                             iconImage:[UIImage imageNamed:@"item_abnormal_stock"]
+                                                                  type:RMessageTypeCustom
+                                                        customTypeName:@"pop-message"
+                                                              duration:3
+                                                      inViewController:messageViewController
+                                                              callback:nil
+                                                  presentingCompletion:nil
+                                                     dismissCompletion:nil
+                                                           buttonTitle:@"今日提示一次"
+                                                        buttonCallback:nil
+                                                            atPosition:RMessagePositionNavBarOverlay
+                                                  canBeDismissedByUser:YES];
+    
+    [messageView.button setBackgroundImage:nil forState:UIControlStateNormal];
+    
+    
+    
+//        [messageView.button setTitle:buttonTitle forState:UIControlStateNormal];
+//        [messageView.button setTitle:buttonTitle forState:UIControlStateHighlighted];
+    
+        [messageView.button setImage:[UIImage imageNamed:@"icon_stockAlert_select"] forState:UIControlStateNormal];
+        [messageView.button setImage:[UIImage imageNamed:@"icon_stockAlert_selected"] forState:UIControlStateHighlighted];
+        
+        [messageView.button relayoutWithType:TBButtonTypeHorizontalTitleImage margin:5];
+    
+    //    [messageView setButton:messageView.button];
+    
+    [RMessage prepareNotificationForPresentation:messageView];
+//    
+//    [RMessage showNotificationInViewController:messageViewController
+//                                         title:@"推送"
+//                                      subtitle:@"推送内容佛挡杀佛是否是的发送到发送到发送到发送到钱塘江南报关单非得更高如果出"
+//                                     iconImage:[UIImage imageNamed:@"item_abnormal_stock"]
+//                                          type:RMessageTypeCustom
+//                                customTypeName:@"pop-message"
+//                                      duration:3
+//                                      callback:nil
+//                                   buttonTitle:@"今日提示一次"
+//                                buttonCallback:nil
+//                                    atPosition:RMessagePositionNavBarOverlay
+//                          canBeDismissedByUser:YES];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         [self showAlert];
     });
