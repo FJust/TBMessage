@@ -162,4 +162,6 @@
 
 - (void)interfaceDidRotate;
 
+- (void)resetButtonWidth;
+
 @end
