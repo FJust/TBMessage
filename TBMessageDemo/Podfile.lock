@@ -1,0 +1,36 @@
+PODS:
+  - HexColors (4.0.0)
+  - Masonry (1.1.0)
+  - PPTopMostController (0.0.1)
+  - TBMessage (0.0.2):
+    - HexColors (~> 4.0.0)
+    - PPTopMostController (~> 0.0.1)
+
+DEPENDENCIES:
+  - Masonry
+  - TBMessage (from `https://git.tigerbrokers.net/lipengfei/TBMessage.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - HexColors
+    - Masonry
+    - PPTopMostController
+
+EXTERNAL SOURCES:
+  TBMessage:
+    :git: https://git.tigerbrokers.net/lipengfei/TBMessage.git
+
+CHECKOUT OPTIONS:
+  TBMessage:
+    :commit: 6c4e43c678d1524dd1eb592f99be5bac22f01848
+    :git: https://git.tigerbrokers.net/lipengfei/TBMessage.git
+
+SPEC CHECKSUMS:
+  HexColors: 5f95843ef89aff6a72e1fd3a8ebabf205cc43379
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  PPTopMostController: 4e6f1e5f8c645bdcc74cd837a20f607ff262c048
+  TBMessage: a35b0faa738b0dd878a36a13f8bb77ef25575000
+
+PODFILE CHECKSUM: 00d835a5381a5abc35895906713d09234f53e07c
+
+COCOAPODS: 1.5.0

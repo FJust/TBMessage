@@ -1,0 +1,35 @@
+{
+  "name": "TBMessage",
+  "version": "0.0.2",
+  "summary": "TBMessage",
+  "description": "description",
+  "homepage": "https://git.tigerbrokers.net/lipengfei/TBMessage",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Just": "email@address.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://git.tigerbrokers.net/lipengfei/TBMessage",
+    "tag": "0.0.2"
+  },
+  "source_files": [
+    "Classes",
+    "Classes/**/*.{h,m}"
+  ],
+  "exclude_files": "Classes/Exclude",
+  "resources": "Resources/**/*.{png,json}",
+  "dependencies": {
+    "PPTopMostController": [
+      "~> 0.0.1"
+    ],
+    "HexColors": [
+      "~> 4.0.0"
+    ]
+  }
+}

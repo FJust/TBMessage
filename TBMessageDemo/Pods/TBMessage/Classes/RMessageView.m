@@ -633,7 +633,7 @@ static NSMutableDictionary *globalDesignDictionary;
   _subtitleLabel.backgroundColor = nil;
 
   _button.titleLabel.font = [UIFont boldSystemFontOfSize:14.0];
-  _button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+//  _button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
   [_button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
   _iconImageView.clipsToBounds = NO;
 }
